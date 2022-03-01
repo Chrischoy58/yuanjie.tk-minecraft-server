@@ -1,0 +1,3 @@
+2022-02-28T13:19:38.895887Z  INFO agent: Starting UI
+2022-02-28T13:19:38.964012Z  INFO agent::agent_config: generating claim key to setup playit program
+2022-02-28T13:19:39.046488Z  INFO agent::agent_config: generated claim url claim_url=https://playit.gg/claim/e93d923956529c37a8d61ecdeb462e8228c784ae1a7889c4a5091f3c6f36175c
