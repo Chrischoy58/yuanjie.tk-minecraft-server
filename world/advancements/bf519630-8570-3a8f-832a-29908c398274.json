@@ -23,9 +23,27 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-03-01 20:47:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-03-01 21:17:08 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-03-01 11:09:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-03-01 21:09:35 +0800"
     },
     "done": true
   },
@@ -38,6 +56,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:dark_forest": "2022-02-28 17:39:21 +0800",
+      "minecraft:swamp": "2022-03-01 21:15:04 +0800",
       "minecraft:lush_caves": "2022-03-01 11:10:27 +0800",
       "minecraft:windswept_forest": "2022-03-01 11:09:46 +0800"
     },

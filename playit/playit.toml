@@ -1,0 +1,9 @@
+last_update = 1646119689762
+refresh_from_api = true
+secret_key = '7c77b02ad4cd4becbd681dea5e3af43f215c0859cf080e533a560381cb51b04e'
+
+[[mappings]]
+proto = 'tcp'
+tunnel_ip = '147.185.221.212'
+tunnel_from_port = 16384
+local_port = 25565

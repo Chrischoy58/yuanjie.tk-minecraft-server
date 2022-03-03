@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.193.223.189
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1646142610251
+  login: 1646136694634
+money: '0'
+last-account-name: leejiazhe
+lastlocation:
+  world: b318d1f7-21c7-4b00-aca8-a3e274414437
+  world-name: world
+  x: -16.87532581915237
+  y: 63.0
+  z: 130.64308972089302
+  yaw: 165.3551025390625
+  pitch: -82.38748168945312
+logoutlocation:
+  world: b318d1f7-21c7-4b00-aca8-a3e274414437
+  world-name: world
+  x: -23.505861095719556
+  y: 95.0
+  z: 118.91417456149308
+  yaw: -20.831787109375
+  pitch: 41.24980545043945

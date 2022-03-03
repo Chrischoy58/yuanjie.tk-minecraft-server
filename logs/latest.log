@@ -1,256 +1,81 @@
-[11:03:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:03:11] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[11:03:13] [Worker-Main-2/INFO]: Loaded 7 recipes
-[11:03:23] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[11:03:23] [Server thread/INFO]: Loading properties
-[11:03:25] [Server thread/INFO]: This server is running Paper version git-Paper-215 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 7f65b0b)
-[11:03:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:03:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:03:26] [Server thread/INFO]: Default game type: SURVIVAL
-[11:03:26] [Server thread/INFO]: Generating keypair
-[11:03:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:03:27] [Server thread/INFO]: Using default channel type
-[11:03:28] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[11:03:28] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:03:30] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
-[11:03:30] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
-[11:03:30] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.1-SNAPSHOT
-[11:03:30] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3-dev+28-c3b9948
-[11:03:30] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.3-dev+27-bc2da98
-[11:03:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:03:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:03:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:03:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:03:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:03:30] [Server thread/INFO]: Preparing level "world"
-[11:03:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:03:35] [Server thread/INFO]: Time elapsed: 751 ms
-[11:03:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:03:35] [Server thread/INFO]: Time elapsed: 270 ms
-[11:03:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:03:35] [Server thread/INFO]: Time elapsed: 201 ms
-[11:03:35] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
-[11:03:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
-[11:03:38] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
-[11:03:38] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREFIX to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER_URL to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_APPLY_SKIN to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_CREATECUSTOM to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_DEFAULTCOMMAND to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET_OTHER to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINURL to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINUPDATE_OTHER to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINCLEAR_OTHER to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKIN to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINNAME to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value COMPLETIONS_SKINURL to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_URL to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
-[11:03:39] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINURL_DISALLOWED to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_UPDATING_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_CREATE_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_URL to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_CUSTOMSKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_INVALID_URLSKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_FULL to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_GENERIC to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_NO_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_OPEN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_TITLE_NEW to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_NEXT_PAGE to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_PREVIOUS_PAGE to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_REMOVE_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_SELECT_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value DATA_DROPPED to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_API_FAILED to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
-[11:03:40] [Server thread/INFO]: [SkinsRestorer] Saving new config value CUSTOM_HELP_IF_ENABLED to messages.yml
-[11:03:41] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[11:03:47] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.1-SNAPSHOT
-[11:03:49] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:03:49] [Server thread/INFO]: [Geyser-Spigot] 
-[11:03:49] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.1-SNAPSHOT (git-master-dfbb589)
-[11:03:49] [Server thread/INFO]: [Geyser-Spigot] 
-[11:03:49] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:04:04] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[11:04:04] [Server thread/INFO]: [Geyser-Spigot] Done (14.907s)! Run /geyser help for help!
-[11:04:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3-dev+28-c3b9948
-[11:04:12] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsGeoIP to the same version.
-[11:04:13] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[11:04:13] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[11:04:14] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[11:04:14] [Server thread/INFO]: [Essentials] Using locale en_MY
-[11:04:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:04:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:04:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[11:04:14] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.3-dev+27-bc2da98
-[11:04:14] [Server thread/WARN]: [EssentialsGeoIP] Version mismatch! Please update all Essentials jars to the same version.
-[11:04:14] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[11:04:14] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[11:04:15] [Server thread/INFO]: Running delayed init tasks
-[11:04:15] [Server thread/INFO]: Done (52.062s)! For help, type "help"
-[11:04:15] [Server thread/INFO]: Timings Reset
-[11:04:15] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[11:04:15] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:04:15] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
-[11:04:15] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[11:04:19] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/56, uuid='1183c181-02b2-4494-989f-a23f96ae1a77', l='ServerLevel[world]', x=-76.17, y=25.00, z=81.11, cpos=[-5, 5], tl=40147, v=false]
-[11:04:19] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/93, uuid='a774d830-9674-4b71-b9ff-f2916ab0ca9e', l='ServerLevel[world]', x=-52.28, y=7.00, z=67.67, cpos=[-4, 4], tl=39576, v=false]
-[11:04:19] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/127, uuid='3c72131e-9ee1-4a46-bd93-9ffc328bf455', l='ServerLevel[world]', x=-36.26, y=21.06, z=94.27, cpos=[-3, 5], tl=64460, v=false]
-[11:04:19] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/131, uuid='b152055e-9166-411c-84ed-86d58bcdde97', l='ServerLevel[world]', x=-40.97, y=14.03, z=77.16, cpos=[-3, 4], tl=39808, v=false]
-[11:04:19] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/132, uuid='f2e5f162-f166-4943-ac95-8c4346919295', l='ServerLevel[world]', x=-47.20, y=7.00, z=59.31, cpos=[-3, 3], tl=35234, v=false]
-[11:08:57] [User Authenticator #1/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
-[11:09:00] [Server thread/INFO]: Chrischoy58 joined the game
-[11:09:00] [Server thread/INFO]: Chrischoy58[/127.64.104.27:8679] logged in with entity id 330 at ([world]7.5, 70.0, -4.5)
-[11:09:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5507ms or 110 ticks behind
-[11:10:27] [Server thread/INFO]: Chrischoy58 fell from a high place
-[11:10:34] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
-[11:10:34] [Server thread/INFO]: Chrischoy58 left the game
-[11:12:13] [User Authenticator #2/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[11:12:14] [Server thread/INFO]: AnVius0623 joined the game
-[11:12:14] [Server thread/INFO]: AnVius0623[/127.64.104.27:8796] logged in with entity id 735 at ([world_nether]-87.90530614066734, 72.0, -216.1012721055805)
-[11:14:45] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[11:14:45] [Server thread/INFO]: AnVius0623 left the game
-[11:15:02] [User Authenticator #3/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[11:15:02] [Server thread/INFO]: AnVius0623 joined the game
-[11:15:02] [Server thread/INFO]: AnVius0623[/127.64.104.27:8887] logged in with entity id 996 at ([world_nether]-80.89581155328344, 51.0, -201.15141074685886)
-[11:15:51] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[11:15:51] [Server thread/INFO]: AnVius0623 left the game
-[11:15:57] [User Authenticator #3/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[11:15:57] [Server thread/INFO]: AnVius0623 joined the game
-[11:15:57] [Server thread/INFO]: AnVius0623[/127.64.104.27:8926] logged in with entity id 1150 at ([world_nether]-94.812958299901, 51.0, -187.7783832449473)
-[11:16:05] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[11:16:11] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[11:17:28] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[11:17:28] [Server thread/INFO]: AnVius0623 left the game
-[11:17:38] [User Authenticator #4/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[11:17:38] [Server thread/INFO]: AnVius0623 joined the game
-[11:17:38] [Server thread/INFO]: AnVius0623[/127.64.104.27:8982] logged in with entity id 1240 at ([world_nether]-99.14115667712404, 54.0, -205.9427684390575)
-[11:17:44] [User Authenticator #4/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
-[11:17:44] [Server thread/INFO]: Winter_Ryan joined the game
-[11:17:44] [Server thread/INFO]: Winter_Ryan[/127.34.181.191:8986] logged in with entity id 1245 at ([world]-1.5, 65.0, 9.5)
-[11:17:53] [Server thread/INFO]: AnVius0623 issued server command: /op Winter_Ryan
-[11:17:53] [Server thread/INFO]: [AnVius0623: Made Winter_Ryan a server operator]
-[11:17:57] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[11:18:03] [Server thread/INFO]: AnVius0623 issued server command: /whois Winter_Ryan
-[11:18:09] [Server thread/INFO]: Winter_Ryan has made the advancement [Suit Up]
-[11:18:11] [Server thread/INFO]: Winter_Ryan has made the advancement [Cover Me with Diamonds]
-[11:18:19] [Server thread/INFO]: Winter_Ryan has made the advancement [Enchanter]
-[11:18:27] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[11:19:45] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[11:20:01] [Server thread/INFO]: Winter_Ryan has made the advancement [Hot Stuff]
-[11:20:05] [Server thread/INFO]: AnVius0623 issued server command: /gamerule keepInventory true
-[11:20:05] [Server thread/INFO]: [AnVius0623: Gamerule keepInventory is now set to: true]
-[11:23:14] [Server thread/INFO]: Winter_Ryan has completed the challenge [Cover Me in Debris]
-[11:23:20] [Server thread/INFO]: AnVius0623 fell from a high place
-[11:24:14] [Server thread/INFO]: AnVius0623 issued server command: /effect give @a minecraft:night_vision 1000000 100
-[11:24:14] [Server thread/INFO]: [AnVius0623: Applied effect Night Vision to 2 targets]
-[11:25:07] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[11:25:43] [Server thread/INFO]: AnVius0623 fell from a high place
-[11:26:20] [Server thread/INFO]: AnVius0623 fell from a high place
-[11:26:34] [Server thread/INFO]: AnVius0623 fell from a high place
-[11:26:48] [Server thread/INFO]: AnVius0623 fell from a high place
-[11:26:59] [Server thread/INFO]: Winter_Ryan has made the advancement [Stone Age]
-[11:27:51] [Server thread/INFO]: AnVius0623 issued server command: /give Winter_Ryan totem_of_undying
-[11:27:54] [Server thread/INFO]: Winter_Ryan issued server command: /give Winter_Ryan totem_of_undying 64
-[11:28:21] [Server thread/INFO]: AnVius0623 issued server command: /inv
-[11:28:40] [Async Chat Thread - #0/INFO]: <AnVius0623> invsee
-[11:28:49] [Server thread/INFO]: AnVius0623 issued server command: /invsee Winter_Ryan
-[11:28:56] [Server thread/INFO]: Winter_Ryan issued server command: /invsee AnVius0623
-[11:32:06] [Server thread/INFO]: AnVius0623 has completed the challenge [Cover Me in Debris]
-[11:32:16] [Server thread/INFO]: Winter_Ryan issued server command: /effect give Winter_Ryan minecraft:strength 999999 99
-[11:32:16] [Server thread/INFO]: [Winter_Ryan: Applied effect Strength to Winter_Ryan]
-[11:32:26] [Server thread/INFO]: AnVius0623 was slain by Winter_Ryan
-[11:33:02] [Server thread/INFO]: AnVius0623 was slain by Winter_Ryan
-[11:33:23] [Server thread/INFO]: Winter_Ryan has made the advancement [Spooky Scary Skeleton]
-[11:33:44] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[11:33:49] [Server thread/INFO]: AnVius0623 was slain by Winter_Ryan
-[11:33:55] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[11:33:58] [Server thread/INFO]: Winter_Ryan has made the advancement [Withering Heights]
-[11:33:58] [Server thread/INFO]: AnVius0623 has made the advancement [Withering Heights]
-[11:34:12] [Server thread/INFO]: Winter_Ryan has made the advancement [Monster Hunter]
-[11:34:45] [Server thread/INFO]: AnVius0623 issued server command: /effect give AnVius0623 minecraft:strength 1000000 100
-[11:34:45] [Server thread/INFO]: [AnVius0623: Applied effect Strength to AnVius0623]
-[11:36:13] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[11:36:35] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[11:36:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[11:36:58] [Server thread/INFO]: Winter_Ryan issued server command: /summon minecraft:wither
-[11:36:58] [Server thread/INFO]: [Winter_Ryan: Summoned new Wither]
-[11:37:48] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[11:37:48] [Server thread/INFO]: AnVius0623 left the game
-[11:37:57] [User Authenticator #5/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[11:37:57] [Server thread/INFO]: AnVius0623 joined the game
-[11:37:57] [Server thread/INFO]: AnVius0623[/127.0.0.1:9303] logged in with entity id 4306 at ([world]-51.29622078111693, 63.0, 158.50905037204393)
-[11:38:18] [Server thread/INFO]: AnVius0623 issued server command: /who default
-[11:38:19] [Server thread/INFO]: Winter_Ryan lost connection: Disconnected
-[11:38:19] [Server thread/INFO]: Winter_Ryan left the game
-[11:38:27] [User Authenticator #5/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
-[11:38:27] [Server thread/INFO]: Winter_Ryan joined the game
-[11:38:27] [Server thread/INFO]: Winter_Ryan[/127.34.181.191:9320] logged in with entity id 4353 at ([world]-54.38747402753139, 63.0, 155.69999998807907)
-[11:38:48] [Server thread/INFO]: Winter_Ryan lost connection: Disconnected
-[11:38:48] [Server thread/INFO]: Winter_Ryan left the game
-[11:39:00] [User Authenticator #5/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
-[11:39:00] [Server thread/INFO]: Winter_Ryan joined the game
-[11:39:00] [Server thread/INFO]: Winter_Ryan[/127.34.181.191:9335] logged in with entity id 4405 at ([world]-54.38747402753139, 63.0, 155.69999998807907)
-[11:39:14] [Server thread/INFO]: Winter_Ryan issued server command: /summon minecraft:wither
-[11:39:14] [Server thread/INFO]: [Winter_Ryan: Summoned new Wither]
-[11:39:27] [Server thread/INFO]: AnVius0623 was slain by Winter_Ryan
-[11:40:10] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[11:40:10] [Server thread/WARN]: AnVius0623 moved too quickly! -56.11376181301808,9.0,131.0603764834496
-[11:40:15] [Server thread/WARN]: Winter_Ryan was kicked due to keepalive timeout!
-[11:40:15] [Server thread/INFO]: Winter_Ryan lost connection: Timed out
-[11:40:15] [Server thread/INFO]: Winter_Ryan left the game
-[11:40:22] [User Authenticator #6/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
-[11:40:22] [Server thread/INFO]: Winter_Ryan joined the game
-[11:40:22] [Server thread/INFO]: Winter_Ryan[/127.34.181.191:9352] logged in with entity id 4659 at ([world]-54.525466339979594, 63.0, 155.30000001192093)
-[11:40:56] [Server thread/INFO]: Winter_Ryan has made the advancement [We Need to Go Deeper]
-[11:40:57] [Server thread/INFO]: AnVius0623 issued server command: /warp home
-[11:41:03] [Server thread/WARN]: Winter_Ryan moved too quickly! -7.731978980621342,4.751820304439249,-24.285200680041626
-[11:42:39] [Server thread/INFO]: Winter_Ryan lost connection: Disconnected
-[11:42:39] [Server thread/INFO]: Winter_Ryan left the game
-[11:46:34] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[11:46:34] [Server thread/INFO]: AnVius0623 left the game
-[11:47:01] [User Authenticator #7/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[11:47:01] [Server thread/INFO]: AnVius0623 joined the game
-[11:47:01] [Server thread/INFO]: AnVius0623[/25.9.218.53:9600] logged in with entity id 5991 at ([world]-65.79564460712268, 72.0, 38.60016534525963)
-[11:47:43] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[11:47:43] [Server thread/INFO]: AnVius0623 left the game
+[11:55:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:55:24] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[11:55:25] [Worker-Main-2/INFO]: Loaded 7 recipes
+[11:55:29] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[11:55:29] [Server thread/INFO]: Loading properties
+[11:55:30] [Server thread/INFO]: This server is running Paper version git-Paper-215 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 7f65b0b)
+[11:55:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:55:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:55:30] [Server thread/INFO]: Default game type: SURVIVAL
+[11:55:30] [Server thread/INFO]: Generating keypair
+[11:55:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:55:30] [Server thread/INFO]: Using default channel type
+[11:55:30] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[11:55:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:55:32] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
+[11:55:32] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[11:55:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.1-SNAPSHOT
+[11:55:32] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3-dev+28-c3b9948
+[11:55:32] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.3-dev+27-bc2da98
+[11:55:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:55:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:55:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:55:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:55:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:55:32] [Server thread/INFO]: Preparing level "world"
+[11:55:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:55:35] [Server thread/INFO]: Time elapsed: 560 ms
+[11:55:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:55:35] [Server thread/INFO]: Time elapsed: 193 ms
+[11:55:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:55:35] [Server thread/INFO]: Time elapsed: 149 ms
+[11:55:35] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
+[11:55:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[11:55:38] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[11:55:38] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
+[11:55:38] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:55:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.1-SNAPSHOT
+[11:55:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:55:44] [Server thread/INFO]: [Geyser-Spigot] 
+[11:55:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.1-SNAPSHOT (git-master-dfbb589)
+[11:55:44] [Server thread/INFO]: [Geyser-Spigot] 
+[11:55:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:55:51] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[11:55:51] [Server thread/INFO]: [Geyser-Spigot] Done (7.499s)! Run /geyser help for help!
+[11:55:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3-dev+28-c3b9948
+[11:55:52] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsGeoIP to the same version.
+[11:55:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:55:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:55:53] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[11:55:53] [Server thread/INFO]: [Essentials] Using locale en_MY
+[11:55:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:55:53] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:55:53] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:55:53] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.3-dev+27-bc2da98
+[11:55:53] [Server thread/WARN]: [EssentialsGeoIP] Version mismatch! Please update all Essentials jars to the same version.
+[11:55:54] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[11:55:54] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[11:55:54] [Server thread/INFO]: Running delayed init tasks
+[11:55:54] [Server thread/INFO]: Done (24.552s)! For help, type "help"
+[11:55:54] [Server thread/INFO]: Timings Reset
+[11:55:54] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:55:54] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
+[11:55:54] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[12:00:57] [User Authenticator #1/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[12:00:58] [Server thread/INFO]: Chrischoy58 joined the game
+[12:00:58] [Server thread/INFO]: Chrischoy58[/127.92.119.249:10724] logged in with entity id 365 at ([world]-21.695204655787943, 95.0, 123.89311150264983)
+[13:16:35] [Server thread/INFO]: Chrischoy58 was slain by Zombie
+[13:24:46] [Server thread/INFO]: Chrischoy58 was slain by Slime
+[13:25:00] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
+[13:25:00] [Server thread/INFO]: Chrischoy58 left the game
+[13:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5929ms or 118 ticks behind

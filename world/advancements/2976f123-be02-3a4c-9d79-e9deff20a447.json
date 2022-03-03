@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2022-02-26 16:50:30 +0800"
@@ -227,6 +233,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2022-03-01 20:21:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-02-26 17:06:01 +0800"
@@ -272,6 +284,12 @@
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2022-02-26 16:53:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2022-03-01 20:21:20 +0800"
     },
     "done": true
   },
@@ -347,6 +365,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2022-03-01 20:29:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-02-28 20:44:06 +0800"
@@ -356,6 +380,18 @@
   "minecraft:nether/summon_wither": {
     "criteria": {
       "summoned": "2022-03-01 11:33:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
     },
     "done": true
   },
@@ -413,7 +449,9 @@
       "cooked_mutton": "2022-02-26 17:10:15 +0800",
       "cooked_beef": "2022-02-26 16:59:24 +0800",
       "beef": "2022-02-26 17:05:08 +0800",
+      "apple": "2022-03-01 21:18:47 +0800",
       "bread": "2022-02-28 20:44:20 +0800",
+      "glow_berries": "2022-03-01 20:28:06 +0800",
       "enchanted_golden_apple": "2022-02-28 20:16:09 +0800",
       "carrot": "2022-02-28 21:10:03 +0800"
     },
@@ -440,6 +478,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2022-02-26 16:50:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
@@ -578,6 +622,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2022-02-28 21:15:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2022-03-01 20:29:55 +0800"
     },
     "done": true
   },
@@ -761,6 +811,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2022-02-26 16:25:55 +0800"
@@ -776,6 +832,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2022-02-28 20:53:52 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
     },
     "done": true
   },
@@ -911,6 +973,8 @@
       "minecraft:hoglin": "2022-02-28 21:14:00 +0800",
       "minecraft:magma_cube": "2022-03-01 11:15:24 +0800",
       "minecraft:piglin_brute": "2022-02-28 21:12:56 +0800",
+      "minecraft:spider": "2022-03-01 20:32:21 +0800",
+      "minecraft:creeper": "2022-03-01 20:29:42 +0800",
       "minecraft:piglin": "2022-02-28 21:12:50 +0800",
       "minecraft:zombie": "2022-02-26 17:07:32 +0800"
     },
@@ -931,6 +995,18 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2022-02-28 20:43:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2022-03-01 20:21:20 +0800"
     },
     "done": true
   },
@@ -1024,6 +1100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-02-28 20:41:13 +0800"
@@ -1042,6 +1124,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2022-02-28 20:55:44 +0800"
@@ -1051,6 +1139,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2022-02-26 16:53:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
@@ -1180,6 +1274,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2022-03-01 20:26:16 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-02-28 20:41:27 +0800"
@@ -1216,6 +1316,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-02-26 17:03:29 +0800"
@@ -1225,6 +1331,12 @@
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2022-02-28 20:55:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
@@ -1240,6 +1352,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2022-02-28 20:55:38 +0800"
@@ -1249,6 +1367,12 @@
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
       "has_netherrack": "2022-02-28 21:10:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
@@ -1342,6 +1466,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-02-28 20:41:13 +0800"
@@ -1372,6 +1502,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2022-02-28 21:15:25 +0800"
@@ -1393,6 +1529,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2022-02-26 16:49:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
     },
     "done": true
   },
@@ -1459,6 +1601,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2022-02-26 17:03:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
@@ -1578,6 +1726,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2022-03-01 20:29:20 +0800",
       "minecraft:dark_forest": "2022-02-26 15:44:47 +0800",
       "minecraft:river": "2022-02-26 16:44:12 +0800",
       "minecraft:swamp": "2022-02-26 15:45:32 +0800",
@@ -1656,6 +1805,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2022-02-28 20:20:35 +0800"
@@ -1686,9 +1841,27 @@
     },
     "done": true
   },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2022-03-01 20:50:43 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-02-26 16:50:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2022-03-01 20:24:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-03-01 21:26:19 +0800"
     },
     "done": true
   },
@@ -1740,9 +1913,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2022-03-02 16:00:38 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2022-02-28 20:49:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
@@ -1773,6 +1958,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2022-02-28 21:00:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-03-01 20:24:26 +0800"
     },
     "done": true
   },
