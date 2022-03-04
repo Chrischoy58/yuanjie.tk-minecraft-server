@@ -1,81 +1,123 @@
-[11:55:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:55:24] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[11:55:25] [Worker-Main-2/INFO]: Loaded 7 recipes
-[11:55:29] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[11:55:29] [Server thread/INFO]: Loading properties
-[11:55:30] [Server thread/INFO]: This server is running Paper version git-Paper-215 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 7f65b0b)
-[11:55:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:55:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:55:30] [Server thread/INFO]: Default game type: SURVIVAL
-[11:55:30] [Server thread/INFO]: Generating keypair
-[11:55:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:55:30] [Server thread/INFO]: Using default channel type
-[11:55:30] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[11:55:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:55:32] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
-[11:55:32] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
-[11:55:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.1-SNAPSHOT
-[11:55:32] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3-dev+28-c3b9948
-[11:55:32] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.3-dev+27-bc2da98
-[11:55:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:55:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:55:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:55:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:55:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:55:32] [Server thread/INFO]: Preparing level "world"
-[11:55:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:55:35] [Server thread/INFO]: Time elapsed: 560 ms
-[11:55:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:55:35] [Server thread/INFO]: Time elapsed: 193 ms
-[11:55:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:55:35] [Server thread/INFO]: Time elapsed: 149 ms
-[11:55:35] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
-[11:55:37] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
-[11:55:38] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
-[11:55:38] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
-[11:55:38] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[11:55:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.1-SNAPSHOT
-[11:55:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:55:44] [Server thread/INFO]: [Geyser-Spigot] 
-[11:55:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.1-SNAPSHOT (git-master-dfbb589)
-[11:55:44] [Server thread/INFO]: [Geyser-Spigot] 
-[11:55:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:55:51] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[11:55:51] [Server thread/INFO]: [Geyser-Spigot] Done (7.499s)! Run /geyser help for help!
-[11:55:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3-dev+28-c3b9948
-[11:55:52] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsGeoIP to the same version.
-[11:55:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[11:55:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[11:55:53] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[11:55:53] [Server thread/INFO]: [Essentials] Using locale en_MY
-[11:55:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:55:53] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:55:53] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[11:55:53] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.3-dev+27-bc2da98
-[11:55:53] [Server thread/WARN]: [EssentialsGeoIP] Version mismatch! Please update all Essentials jars to the same version.
-[11:55:54] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[11:55:54] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[11:55:54] [Server thread/INFO]: Running delayed init tasks
-[11:55:54] [Server thread/INFO]: Done (24.552s)! For help, type "help"
-[11:55:54] [Server thread/INFO]: Timings Reset
-[11:55:54] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[11:55:54] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[11:55:54] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
-[11:55:54] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[12:00:57] [User Authenticator #1/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
-[12:00:58] [Server thread/INFO]: Chrischoy58 joined the game
-[12:00:58] [Server thread/INFO]: Chrischoy58[/127.92.119.249:10724] logged in with entity id 365 at ([world]-21.695204655787943, 95.0, 123.89311150264983)
-[13:16:35] [Server thread/INFO]: Chrischoy58 was slain by Zombie
-[13:24:46] [Server thread/INFO]: Chrischoy58 was slain by Slime
-[13:25:00] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
-[13:25:00] [Server thread/INFO]: Chrischoy58 left the game
-[13:48:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5929ms or 118 ticks behind
+[10:44:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:44:52] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[10:44:54] [Worker-Main-2/INFO]: Loaded 7 recipes
+[10:44:57] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[10:44:57] [Server thread/INFO]: Loading properties
+[10:44:57] [Server thread/INFO]: This server is running Paper version git-Paper-215 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 7f65b0b)
+[10:44:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:44:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:44:57] [Server thread/INFO]: Default game type: SURVIVAL
+[10:44:57] [Server thread/INFO]: Generating keypair
+[10:44:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:44:57] [Server thread/INFO]: Using default channel type
+[10:44:58] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[10:44:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:44:59] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
+[10:44:59] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[10:44:59] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.1-SNAPSHOT
+[10:44:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3-dev+28-c3b9948
+[10:44:59] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.3-dev+27-bc2da98
+[10:44:59] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[10:44:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:44:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:44:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:44:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:44:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:44:59] [Server thread/INFO]: Preparing level "world"
+[10:45:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:45:02] [Server thread/INFO]: Time elapsed: 658 ms
+[10:45:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:45:02] [Server thread/INFO]: Time elapsed: 195 ms
+[10:45:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:45:02] [Server thread/INFO]: Time elapsed: 199 ms
+[10:45:02] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
+[10:45:04] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[10:45:04] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
+[10:45:04] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
+[10:45:05] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[10:45:09] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.1-SNAPSHOT
+[10:45:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:45:09] [Server thread/INFO]: [Geyser-Spigot] 
+[10:45:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.1-SNAPSHOT (git-master-dfbb589)
+[10:45:09] [Server thread/INFO]: [Geyser-Spigot] 
+[10:45:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:45:15] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
+[10:45:15] [Server thread/INFO]: [Geyser-Spigot] Done (5.984s)! Run /geyser help for help!
+[10:45:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3-dev+28-c3b9948
+[10:45:16] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsGeoIP to the same version.
+[10:45:16] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:45:16] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:45:17] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[10:45:17] [Server thread/INFO]: [Essentials] Using locale en_MY
+[10:45:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:45:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:45:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[10:45:17] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.3-dev+27-bc2da98
+[10:45:17] [Server thread/WARN]: [EssentialsGeoIP] Version mismatch! Please update all Essentials jars to the same version.
+[10:45:17] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[10:45:17] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[10:45:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[10:45:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[10:45:17] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[10:45:18] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
+[10:45:18] [Server thread/INFO]: Preparing spawn area: 0%
+[10:45:18] [Server thread/INFO]: Preparing spawn area: 0%
+[10:45:19] [Server thread/INFO]: Preparing spawn area: 0%
+[10:45:19] [Server thread/INFO]: Time elapsed: 1061 ms
+[10:45:19] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[10:45:19] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[10:45:19] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[10:45:19] [Server thread/INFO]: Running delayed init tasks
+[10:45:19] [Server thread/INFO]: Done (22.473s)! For help, type "help"
+[10:45:19] [Server thread/INFO]: Timings Reset
+[10:45:19] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[10:45:19] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[10:45:20] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
+[10:45:20] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[10:45:43] [Network Listener - #1/INFO]: [Geyser-Spigot] /127.109.167.228:41260 tried to connect!
+[10:45:45] [Network Listener - #3/INFO]: [Geyser-Spigot] Player connected with username Chrischoy58
+[10:45:45] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Chrischoy58 (logged in as: Chrischoy58) has connected to the Java server
+[10:45:46] [User Authenticator #1/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[10:45:47] [Server thread/INFO]: Chrischoy58 joined the game
+[10:45:47] [Server thread/INFO]: Chrischoy58[/127.109.167.228:0] logged in with entity id 333 at ([world]-30.5, 63.0, 128.5)
+[10:45:47] [Server thread/INFO]: Skipping update from removed player 'EntityPlayer['Chrischoy58'/333, uuid='bf519630-8570-3a8f-832a-29908c398274', l='ServerLevel[world]', x=-30.50, y=63.00, z=128.50, cpos=[-2, 8], tl=510321, v=false, removed=KILLED](Chrischoy58 at -30.5,63.0,128.5)'
+[10:45:59] [Server thread/INFO]: Chrischoy58 fell from a high place
+[10:46:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:46:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:46:44] [Server thread/INFO]: Chrischoy58 has made the advancement [Monster Hunter]
+[10:46:55] [Server thread/INFO]: Chrischoy58 was shot by Skeleton
+[10:47:30] [Server thread/INFO]: Chrischoy58 was shot by Skeleton
+[10:47:53] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:47:56] [Server thread/INFO]: Made Chrischoy58 a server operator
+[10:48:00] [Server thread/INFO]: Chrischoy58 fell from a high place
+[10:48:03] [Server thread/INFO]: Chrischoy58 fell from a high place
+[10:48:06] [Server thread/INFO]: Chrischoy58 fell from a high place
+[10:48:10] [Server thread/INFO]: Chrischoy58 fell from a high place
+[10:48:13] [Server thread/INFO]: Chrischoy58 fell from a high place
+[10:48:42] [Server thread/INFO]: Chrischoy58 issued server command: /
+[10:49:00] [Server thread/INFO]: Chrischoy58 issued server command: /gamemode creative
+[10:49:56] [Server thread/INFO]: Chrischoy58 has completed the challenge [Cover Me in Debris]
+[10:50:12] [Server thread/INFO]: Chrischoy58 has made the advancement [Sweet Dreams]
+[10:58:32] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.109.167.228 has disconnected for reason TIMED_OUT
+[10:58:32] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Chrischoy58 has disconnected from the Java server because of TIMED_OUT
+[10:58:32] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
+[10:58:32] [Server thread/INFO]: Chrischoy58 left the game
+[11:08:34] [Network Listener - #1/INFO]: [Geyser-Spigot] /127.109.167.228:41260 tried to connect!
+[11:08:35] [Network Listener - #0/INFO]: [Geyser-Spigot] Player connected with username Chrischoy58
+[11:08:35] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Chrischoy58 (logged in as: Chrischoy58) has connected to the Java server
+[11:08:35] [User Authenticator #2/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[11:08:35] [Server thread/INFO]: Chrischoy58 joined the game
+[11:08:35] [Server thread/INFO]: Chrischoy58[/127.109.167.228:0] logged in with entity id 1877 at ([world]-37.449127, 70.0, 38.498325)
+[11:09:41] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.109.167.228 has disconnected for reason TIMED_OUT
+[11:09:41] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Chrischoy58 has disconnected from the Java server because of TIMED_OUT
+[11:09:41] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
+[11:09:41] [Server thread/INFO]: Chrischoy58 left the game
