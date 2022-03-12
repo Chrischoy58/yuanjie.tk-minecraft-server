@@ -1,126 +1,363 @@
-[15:16:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:16:56] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[15:16:58] [Worker-Main-2/INFO]: Loaded 7 recipes
-[15:17:03] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[15:17:04] [Server thread/INFO]: Loading properties
-[15:17:04] [Server thread/INFO]: This server is running Paper version git-Paper-215 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 7f65b0b)
-[15:17:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:17:04] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:17:04] [Server thread/INFO]: Default game type: SURVIVAL
-[15:17:04] [Server thread/INFO]: Generating keypair
-[15:17:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:17:05] [Server thread/INFO]: Using default channel type
-[15:17:05] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[15:17:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:17:11] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
-[15:17:11] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.13
-[15:17:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.1-SNAPSHOT
-[15:17:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.3-dev+28-c3b9948
-[15:17:11] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.3-dev+27-bc2da98
-[15:17:11] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[15:17:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:17:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:17:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:17:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:17:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:17:11] [Server thread/INFO]: Preparing level "world"
-[15:17:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:17:17] [Server thread/INFO]: Time elapsed: 713 ms
-[15:17:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:17:17] [Server thread/INFO]: Time elapsed: 162 ms
-[15:17:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:17:17] [Server thread/INFO]: Time elapsed: 188 ms
-[15:17:17] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
-[15:17:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.13
-[15:17:24] [Server thread/INFO]: [SkinsRestorer] Using PaperSkinRefresher
-[15:17:24] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using PaperSkinRefresher.
-[15:17:24] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[15:17:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.1-SNAPSHOT
-[15:17:30] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:17:30] [Server thread/INFO]: [Geyser-Spigot] 
-[15:17:30] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.1-SNAPSHOT (git-master-dfbb589)
-[15:17:30] [Server thread/INFO]: [Geyser-Spigot] 
-[15:17:30] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:17:39] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
-[15:17:39] [Server thread/INFO]: [Geyser-Spigot] Done (9.013s)! Run /geyser help for help!
-[15:17:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.3-dev+28-c3b9948
-[15:17:40] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsGeoIP to the same version.
-[15:17:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:17:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:17:42] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[15:17:42] [Server thread/INFO]: [Essentials] Using locale en_MY
-[15:17:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:17:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:17:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[15:17:42] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.3-dev+27-bc2da98
-[15:17:42] [Server thread/WARN]: [EssentialsGeoIP] Version mismatch! Please update all Essentials jars to the same version.
-[15:17:43] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[15:17:43] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[15:17:43] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[15:17:44] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[15:17:44] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[15:17:45] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
-[15:17:46] [Server thread/INFO]: Preparing spawn area: 0%
-[15:17:46] [Server thread/INFO]: Preparing spawn area: 0%
-[15:17:46] [Server thread/INFO]: Preparing spawn area: 0%
-[15:17:46] [Server thread/INFO]: Time elapsed: 1409 ms
-[15:17:46] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[15:17:46] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[15:17:46] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[15:17:47] [Server thread/INFO]: Running delayed init tasks
-[15:17:47] [Server thread/INFO]: Done (43.476s)! For help, type "help"
-[15:17:47] [Server thread/INFO]: Timings Reset
-[15:17:47] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.13
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[15:17:47] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:17:47] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] You're 6 EssentialsX dev build(s) out of date!
-[15:17:47] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[15:17:53] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/85, uuid='eb601cdc-9d01-463a-bb05-7f895a4782b0', l='ServerLevel[world]', x=-62.52, y=70.00, z=33.21, cpos=[-4, 2], tl=146306, v=false]
-[15:17:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5081ms or 101 ticks behind
-[15:17:56] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Villager'/226, uuid='946c3c35-313e-4bb1-88ac-c5862ffc2823', l='ServerLevel[flat]', x=102.65, y=-58.44, z=32.62, cpos=[6, 2], tl=432145, v=false]
-[15:18:30] [User Authenticator #1/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[15:18:32] [Server thread/INFO]: AnVius0623 joined the game
-[15:18:32] [Server thread/INFO]: AnVius0623[/127.0.0.1:6848] logged in with entity id 233 at ([world]-50.41527944154872, 72.0, 39.310115416569786)
-[15:18:38] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/288, uuid='65d3f5fe-0c7b-4602-b099-ce6aab03c1dc', l='ServerLevel[world]', x=-223.35, y=70.00, z=130.11, cpos=[-14, 8], tl=339904, v=false]
-[15:27:45] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[15:27:46] [Server thread/INFO]: AnVius0623 left the game
-[15:31:27] [Network Listener - #1/INFO]: [Geyser-Spigot] /127.127.205.176:54523 tried to connect!
-[15:31:29] [Network Listener - #3/INFO]: [Geyser-Spigot] Player connected with username Chrischoy58
-[15:31:29] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Chrischoy58 (logged in as: Chrischoy58) has connected to the Java server
-[15:31:29] [User Authenticator #2/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
-[15:31:30] [Server thread/INFO]: Chrischoy58 joined the game
-[15:31:30] [Server thread/INFO]: Chrischoy58[/127.127.205.176:0] logged in with entity id 771 at ([world]-60.75113, 72.0, 38.9636)
-[15:32:27] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.127.205.176 has disconnected for reason TIMED_OUT
-[15:32:27] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Chrischoy58 has disconnected from the Java server because of TIMED_OUT
-[15:32:27] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
-[15:32:28] [Server thread/INFO]: Chrischoy58 left the game
-[15:33:42] [Network Listener - #1/INFO]: [Geyser-Spigot] /127.127.205.176:54523 tried to connect!
-[15:33:43] [Network Listener - #0/INFO]: [Geyser-Spigot] Player connected with username Chrischoy58
-[15:33:43] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Chrischoy58 (logged in as: Chrischoy58) has connected to the Java server
-[15:33:43] [User Authenticator #3/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
-[15:33:43] [Server thread/INFO]: Chrischoy58 joined the game
-[15:33:43] [Server thread/INFO]: Chrischoy58[/127.127.205.176:0] logged in with entity id 868 at ([world]-60.75113, 72.0, 38.9636)
-[15:35:19] [Server thread/INFO]: Chrischoy58 has made the advancement [Stone Age]
-[15:36:46] [Server thread/INFO]: Nothing changed. The player already is an operator
-[15:37:07] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[15:37:44] [Server thread/INFO]: Chrischoy58 issued server command: /gamemode creative
-[15:39:37] [Server thread/INFO]: Chrischoy58 issued server command: /mvtp flat
-[15:40:21] [Server thread/INFO]: Chrischoy58 issued server command: /away
-[15:41:34] [Server thread/INFO]: Chrischoy58 issued server command: /mvm set mode creative
-[15:41:45] [Server thread/INFO]: Chrischoy58 issued server command: /mv tp world
-[15:42:48] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.127.205.176 has disconnected for reason TIMED_OUT
-[15:42:48] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Chrischoy58 has disconnected from the Java server because of TIMED_OUT
-[15:42:48] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
-[15:42:48] [Server thread/INFO]: Chrischoy58 left the game
-[15:48:17] [User Authenticator #4/INFO]: UUID of player leejiazhe is 13c21542-a666-33e1-a2de-9ea784c73651
-[15:48:17] [Server thread/INFO]: leejiazhe joined the game
-[15:48:17] [Server thread/INFO]: leejiazhe[/127.211.112.120:2793] logged in with entity id 1352 at ([world]-23.505861095719556, 95.0, 118.91417456149308)
-[15:48:59] [Server thread/INFO]: leejiazhe issued server command: /gamemode creative
+[20:02:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:02:33] [Worker-Main-2/INFO]: Loaded 7 recipes
+[20:02:36] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[20:02:36] [Server thread/INFO]: Loading properties
+[20:02:36] [Server thread/INFO]: This server is running Paper version git-Paper-237 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: b55ba19)
+[20:02:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:02:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:02:36] [Server thread/INFO]: Default game type: SURVIVAL
+[20:02:36] [Server thread/INFO]: Generating keypair
+[20:02:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:02:37] [Server thread/INFO]: Using default channel type
+[20:02:37] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[20:02:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:02:41] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[20:02:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[20:02:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[20:02:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[20:02:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[20:02:42] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[20:02:42] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[20:02:42] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[20:02:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[20:02:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[20:02:42] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4-dev+3-997fb18
+[20:02:42] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.2.0
+[20:02:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:02:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:02:42] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[20:02:42] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[20:02:42] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[20:02:43] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[20:02:43] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[20:02:43] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[20:02:43] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[20:02:43] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[20:02:43] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[20:02:43] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[20:02:43] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[20:02:43] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.4-dev+3-997fb18
+[20:02:43] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[20:02:43] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
+[20:02:43] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[20:02:43] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.13
+[20:02:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.2-SNAPSHOT
+[20:02:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:02:43] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[20:02:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:02:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:02:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:02:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:02:44] [Server thread/INFO]: Preparing level "world"
+[20:02:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:02:47] [Server thread/INFO]: Time elapsed: 856 ms
+[20:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:02:48] [Server thread/INFO]: Time elapsed: 242 ms
+[20:02:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:02:48] [Server thread/INFO]: Time elapsed: 159 ms
+[20:02:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[20:02:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4-dev+3-997fb18
+[20:02:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:02:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:02:50] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[20:02:50] [Server thread/INFO]: [Essentials] Using locale en_MY
+[20:02:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:02:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:02:50] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:02:50] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.2.0
+[20:02:50] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.4-dev+3-997fb18
+[20:02:51] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[20:02:51] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[20:02:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[20:02:52] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[20:02:52] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[20:02:52] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
+[20:02:52] [Server thread/INFO]: Time elapsed: 138 ms
+[20:02:52] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[20:02:52] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[20:02:52] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
+[20:02:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.13
+[20:02:55] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R2, using MappingSpigotSkinRefresher.
+[20:02:55] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:03:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.2-SNAPSHOT
+[20:03:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:03:02] [Server thread/INFO]: [Geyser-Spigot] 
+[20:03:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.2-SNAPSHOT (git-master-a1bb434)
+[20:03:02] [Server thread/INFO]: [Geyser-Spigot] 
+[20:03:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:03:13] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
+[20:03:13] [Server thread/INFO]: [Geyser-Spigot] Done (10.854s)! Run /geyser help for help!
+[20:03:13] [Server thread/INFO]: Running delayed init tasks
+[20:03:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
+[20:03:14] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:03:14] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:03:14] [Server thread/INFO]: Done (38.220s)! For help, type "help"
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.13
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:03:14] [Server thread/INFO]: Timings Reset
+[20:03:20] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Villager'/167, uuid='8746593f-7df1-4bc5-a86e-ecc785874709', l='ServerLevel[world]', x=-34.53, y=79.56, z=16.51, cpos=[-3, 1], tl=302280, v=false]
+[20:03:20] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/200, uuid='b987cf8e-0d71-4f97-bf5a-788e8af264ff', l='ServerLevel[world]', x=-27.01, y=-26.90, z=37.45, cpos=[-2, 2], tl=159666, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/260, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-66.22, y=-60.00, z=-63.73, cpos=[-5, -4], tl=97467, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/262, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=20.63, y=78.00, z=52.45, cpos=[1, 3], tl=1769553, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/265, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=29.53, y=80.00, z=31.73, cpos=[1, 1], tl=1673551, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/274, uuid='351445f9-860d-415b-9f7e-ddda0bab0f43', l='ServerLevel[world]', x=22.50, y=65.00, z=80.47, cpos=[1, 5], tl=44414, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/276, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=31.44, y=74.00, z=223.44, cpos=[1, 13], tl=1496472, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/294, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=34.92, y=81.00, z=37.54, cpos=[2, 2], tl=1757552, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/299, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-54.18, y=-60.00, z=-58.82, cpos=[-4, -4], tl=109467, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/300, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-51.81, y=-60.00, z=-68.20, cpos=[-4, -5], tl=115466, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/309, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=53.50, y=77.00, z=216.26, cpos=[3, 13], tl=1850472, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/311, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=62.02, y=83.00, z=235.63, cpos=[3, 14], tl=1796473, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/316, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-37.23, y=-60.00, z=-116.28, cpos=[-3, -8], tl=175463, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/317, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-40.95, y=-60.00, z=-92.06, cpos=[-3, -6], tl=157465, v=false]
+[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/318, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-32.21, y=-60.00, z=-101.79, cpos=[-3, -7], tl=163464, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/324, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=73.82, y=85.00, z=235.49, cpos=[4, 14], tl=1814473, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/326, uuid='a09252b7-4a54-4b60-8077-b2023551ffce', l='ServerLevel[world]', x=89.77, y=81.00, z=220.52, cpos=[5, 13], tl=926952, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/327, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=80.72, y=84.00, z=232.23, cpos=[5, 14], tl=1820473, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/339, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=42.68, y=-60.00, z=-138.48, cpos=[2, -9], tl=355459, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/340, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=42.51, y=-60.00, z=-123.51, cpos=[2, -8], tl=343459, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/341, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=58.17, y=-60.00, z=-106.22, cpos=[3, -7], tl=229460, v=false]
+[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/342, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=48.29, y=-60.00, z=-126.54, cpos=[3, -8], tl=319460, v=false]
+[20:03:23] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/344, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=83.76, y=-60.00, z=-109.71, cpos=[5, -7], tl=271461, v=false]
+[20:05:35] [User Authenticator #1/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
+[20:05:39] [Server thread/INFO]: Winter_Ryan joined the game
+[20:05:40] [Server thread/INFO]: Winter_Ryan[/127.171.221.144:1535] logged in with entity id 409 at ([world]3.5535694863974716, 97.55906820514048, 114.63047706595881)
+[20:05:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8220ms or 164 ticks behind
+[20:05:47] [Server thread/WARN]: Winter_Ryan moved too quickly! 0.0,-28.51493181546985,0.0
+[20:05:49] [Server thread/WARN]: Winter_Ryan moved too quickly! -3.3909169020147205,5.43760434503686,-12.536098371584387
+[20:05:54] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/444, uuid='5930d5dc-f142-4118-a2c3-fd6710da3739', l='ServerLevel[world]', x=160.13, y=72.00, z=-30.12, cpos=[10, -2], tl=138362, v=false]
+[20:05:59] [User Authenticator #1/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
+[20:06:00] [Server thread/INFO]: AnVius0623 joined the game
+[20:06:03] [Server thread/INFO]: AnVius0623[/127.0.0.1:1572] logged in with entity id 465 at ([world_nether]-12.84531422885513, 216.0135834436091, -14.728236336711445)
+[20:06:13] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/470, uuid='136d49b5-f931-41aa-9319-4d3e31e3d3ff', l='ServerLevel[world_nether]', x=-115.22, y=31.50, z=15.23, cpos=[-8, 0], tl=125500, v=false]
+[20:06:19] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/512, uuid='f13690d8-9a6d-41b5-98b5-46789fa5b6cb', l='ServerLevel[world_nether]', x=-96.51, y=31.50, z=96.22, cpos=[-7, 6], tl=30109, v=false]
+[20:06:19] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/513, uuid='a3ae21f3-3890-4bf8-a829-fab29d125e74', l='ServerLevel[world_nether]', x=-92.25, y=31.50, z=114.53, cpos=[-6, 7], tl=162524, v=false]
+[20:06:26] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/569, uuid='8433584c-dd34-4436-b22b-9efcca716f5c', l='ServerLevel[world]', x=-217.88, y=66.00, z=109.72, cpos=[-14, 6], tl=433635, v=false]
+[20:06:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22239ms or 444 ticks behind
+[20:06:37] [Server thread/INFO]: AnVius0623 was fireballed by Ghast
+[20:06:48] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/681, uuid='8e8a253c-2b9f-4377-bda2-46c4c13562b6', l='ServerLevel[world]', x=-224.08, y=64.00, z=188.92, cpos=[-15, 11], tl=825248, v=false]
+[20:06:52] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:06:55] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:06:56] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:07:06] [Server thread/INFO]: Winter_Ryan has made the advancement [Acquire Hardware]
+[20:07:42] [Server thread/INFO]: AnVius0623 issued server command: /difficulty normal
+[20:07:42] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Normal]
+[20:08:17] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:08:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5320ms or 106 ticks behind
+[20:09:00] [Server thread/INFO]: AnVius0623 issued server command: /fill -4 213 -6
+[20:09:11] [Server thread/INFO]: AnVius0623 issued server command: /fill -4 213 -6 7 213 -15 minecraft:magma_block
+[20:09:11] [Server thread/INFO]: [AnVius0623: Successfully filled 89 blocks]
+[20:10:06] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
+[20:10:57] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:12:04] [Server thread/INFO]: AnVius0623 issued server command: /difficulty hard
+[20:12:04] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Hard]
+[20:13:44] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 217 8
+[20:13:53] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 217 8 -8 217 -2 minecraft:magma_block
+[20:13:53] [Server thread/INFO]: [AnVius0623: Successfully filled 79 blocks]
+[20:13:57] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 217 -6
+[20:14:11] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 217 -6 -16 217 -15 minecraft:magma_block
+[20:14:11] [Server thread/INFO]: [AnVius0623: Successfully filled 71 blocks]
+[20:14:19] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 217 -15
+[20:14:31] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 217 -15 -4 217 -6 minecraft:magma_blockd
+[20:14:40] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 217 -15 -4 217 -6 minecraft:magma_block
+[20:14:40] [Server thread/INFO]: [AnVius0623: Successfully filled 98 blocks]
+[20:14:47] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 221 -15
+[20:15:00] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 221 -15 -8 221 -6 minecraft:magma_block
+[20:15:00] [Server thread/INFO]: [AnVius0623: Successfully filled 71 blocks]
+[20:15:06] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 221 -2
+[20:15:17] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 221 -2 -16 221 8 minecraft:magma_block
+[20:15:17] [Server thread/INFO]: [AnVius0623: Successfully filled 79 blocks]
+[20:15:26] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 221 -15
+[20:15:36] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 221 -15 -4 221 -6 minecraft:magma_block
+[20:15:36] [Server thread/INFO]: [AnVius0623: Successfully filled 98 blocks]
+[20:15:44] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 225 8
+[20:15:55] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 225 8 -4 225 -2 minecraft:magma_block
+[20:15:55] [Server thread/INFO]: [AnVius0623: Successfully filled 109 blocks]
+[20:16:01] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 225 -2
+[20:16:10] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 225 -2 -16 225 8 minecraft:magma_block
+[20:16:10] [Server thread/INFO]: [AnVius0623: Successfully filled 79 blocks]
+[20:19:29] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:19:43] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @a minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:1000s}]} 1
+[20:19:43] [Server thread/INFO]: [AnVius0623: Gave 1 [Diamond Pickaxe] to 2]
+[20:19:45] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:21:44] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:22:02] [Server thread/INFO]: AnVius0623 fell from a high place
+[20:22:06] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:22:07] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:22:11] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:22:15] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:22:17] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:22:26] [Server thread/INFO]: AnVius0623 fell from a high place
+[20:22:31] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:22:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:22:52] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[20:23:54] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @p minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:1000s,id:"minecraft:unbreaking",lvl:1000s}]} 1
+[20:23:54] [Server thread/INFO]: [AnVius0623: Gave 1 [Diamond Pickaxe] to AnVius0623]
+[20:25:33] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @a diamond_pickaxe{Enchantments:[{id:"efficiency",lvl:1000},{id:"unbreaking",lvl:1000}]}
+[20:25:33] [Server thread/INFO]: [AnVius0623: Gave 1 [Diamond Pickaxe] to 2]
+[20:25:44] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:25:47] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:25:47] [Server thread/WARN]: AnVius0623 moved too quickly! -60.19999998807907,-105.49410696358134,-17.82032903331975
+[20:25:48] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:26:29] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:26:33] [Server thread/INFO]: AnVius0623 issued server command: /warp stronghold
+[20:26:33] [Server thread/WARN]: AnVius0623 moved too quickly! 1856.9966213525386,81.0,-1157.387055487795
+[20:26:33] [Server thread/INFO]: AnVius0623 has made the advancement [Eye Spy]
+[20:26:36] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
+[20:26:36] [Server thread/INFO]: Winter_Ryan has made the advancement [Eye Spy]
+[20:26:43] [Server thread/INFO]: AnVius0623 issued server command: /warp nether_fortress
+[20:26:43] [Server thread/INFO]: AnVius0623 has made the advancement [A Terrible Fortress]
+[20:26:49] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
+[20:26:49] [Server thread/INFO]: Winter_Ryan has made the advancement [A Terrible Fortress]
+[20:27:11] [Server thread/INFO]: Winter_Ryan has made the advancement [Into Fire]
+[20:27:11] [Server thread/INFO]: AnVius0623 was slain by Blaze
+[20:27:17] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:27:36] [Server thread/INFO]: Winter_Ryan issued server command: /effect give Winter_Ryan minecraft:night_vision 999999
+[20:27:36] [Server thread/INFO]: [Winter_Ryan: Applied effect Night Vision to Winter_Ryan]
+[20:27:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:27:42] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:28:05] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:28:09] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[20:28:16] [Server thread/INFO]: Winter_Ryan issued server command: /homes
+[20:29:02] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:30:32] [Server thread/INFO]: Winter_Ryan has made the advancement [A Seedy Place]
+[20:31:35] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:31:54] [Server thread/INFO]: AnVius0623 issued server command: /warp pvp
+[20:32:00] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:32:00] [Server thread/WARN]: AnVius0623 moved too quickly! 28.0,36.0,4.0
+[20:32:00] [Server thread/WARN]: AnVius0623 moved too quickly! 28.0,36.0,4.0
+[20:32:43] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:32:46] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:32:46] [Server thread/WARN]: AnVius0623 moved too quickly! 14.172943559555296,40.0,-2.193647278011298
+[20:32:55] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:33:00] [Server thread/INFO]: AnVius0623 issued server command: /head
+[20:33:05] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:33:05] [Server thread/WARN]: AnVius0623 moved too quickly! 8.755226993293977,29.0,8.065388637002258
+[20:33:05] [Server thread/WARN]: AnVius0623 moved too quickly! 8.755226993293977,29.0,8.065388637002258
+[20:33:05] [Server thread/WARN]: AnVius0623 moved too quickly! 8.755226993293977,29.0,8.065388637002258
+[20:33:14] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
+[20:33:22] [Async Chat Thread - #0/INFO]: <AnVius0623> head
+[20:33:27] [Server thread/INFO]: Winter_Ryan issued server command: /head
+[20:33:31] [Server thread/INFO]: AnVius0623 issued server command: /head
+[20:33:49] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:33:51] [Server thread/INFO]: Winter_Ryan issued server command: /head
+[20:34:25] [Server thread/INFO]: Winter_Ryan issued server command: /head
+[20:34:53] [Server thread/INFO]: AnVius0623 fell from a high place
+[20:34:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:35:01] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:35:01] [Server thread/WARN]: AnVius0623 moved too quickly! 8.752001596712354,7.0,53.80000001192093
+[20:35:04] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:35:18] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
+[20:35:18] [Server thread/WARN]: AnVius0623 moved too quickly! 6.053546509689738,-7.0,54.98736619171657
+[20:35:18] [Server thread/WARN]: AnVius0623 moved too quickly! 6.053546509689738,-7.0,54.98736619171657
+[20:35:22] [Server thread/INFO]: AnVius0623 issued server command: /tp2p Winter_Ryan
+[20:35:36] [Server thread/INFO]: AnVius0623 issued server command: /tpaccept *
+[20:35:51] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[20:35:51] [Server thread/WARN]: AnVius0623 moved too quickly! -22.284883342527486,10.0,-72.36469925445788
+[20:35:51] [Server thread/WARN]: AnVius0623 moved too quickly! -22.284883342527486,10.0,-72.36469925445788
+[20:36:44] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:37:34] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @a minecraft:netherite_shovel{Enchantments:[{id:"efficiency",lvl:1000},{id:"unbreaking",lvl:1000}]}
+[20:37:34] [Server thread/INFO]: [AnVius0623: Gave 1 [Netherite Shovel] to 2]
+[20:37:41] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[20:38:37] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:38:49] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[20:39:34] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:39:38] [Server thread/INFO]: AnVius0623 issued server command: /warp nether_fortress
+[20:39:38] [Server thread/WARN]: AnVius0623 moved too quickly! -689.2218762826803,40.799999952316284,215.17174759037948
+[20:39:39] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:40:42] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:40:44] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:40:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:41:01] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:41:21] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:41:25] [Server thread/INFO]: Winter_Ryan issued server command: /tp
+[20:41:31] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
+[20:41:34] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[20:42:01] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:42:32] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[20:42:41] [Server thread/INFO]: Winter_Ryan issued server command: /tp
+[20:42:49] [Server thread/INFO]: Winter_Ryan issued server command: /homes
+[20:43:23] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:44:57] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[20:44:57] [Server thread/WARN]: AnVius0623 moved too quickly! -37.75545145249329,54.0,-30.332792390159028
+[20:44:57] [Server thread/WARN]: AnVius0623 moved too quickly! -37.75545145249329,54.0,-30.332792390159028
+[20:45:58] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:46:03] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:46:09] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[20:46:42] [Server thread/INFO]: AnVius0623 issued server command: /tpask Winter_Ryan
+[20:47:07] [Server thread/INFO]: Winter_Ryan issued server command: /tpaccept
+[20:47:07] [Server thread/WARN]: AnVius0623 moved too quickly! -42.38207282399546,-95.24918707874468,-44.42364748657705
+[20:47:07] [Server thread/WARN]: AnVius0623 moved too quickly! -42.38207282399546,-95.24918707874468,-44.42364748657705
+[20:47:07] [Server thread/WARN]: AnVius0623 moved too quickly! -42.38207282399546,-95.24918707874468,-44.42364748657705
+[20:47:41] [Async Chat Thread - #1/INFO]: <AnVius0623> echest
+[20:48:05] [Server thread/INFO]: Winter_Ryan issued server command: /echest
+[20:49:48] [Server thread/INFO]: AnVius0623 issued server command: /speed 5
+[20:50:12] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
+[20:50:26] [Server thread/INFO]: AnVius0623 issued server command: /speed 2
+[20:51:30] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:51:31] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:51:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:52:25] [Server thread/INFO]: Winter_Ryan issued server command: /speed
+[20:52:34] [Server thread/INFO]: AnVius0623 issued server command: /speed 10
+[20:52:37] [Server thread/INFO]: Winter_Ryan issued server command: /speed 5
+[20:52:53] [Server thread/INFO]: Winter_Ryan issued server command: /speed 10
+[20:54:01] [Server thread/INFO]: Winter_Ryan issued server command: /homes
+[20:54:14] [Async Chat Thread - #2/INFO]: <AnVius0623> warp home
+[20:54:21] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[20:54:21] [Server thread/WARN]: AnVius0623 moved too quickly! -24.657554731095953,131.0,-70.97965939431953
+[20:54:21] [Server thread/WARN]: AnVius0623 moved too quickly! -24.657554731095953,131.0,-70.97965939431953
+[20:54:29] [Server thread/INFO]: AnVius0623 issued server command: /speed 2
+[20:55:19] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:56:47] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:56:52] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:58:07] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[20:58:09] [Server thread/INFO]: Winter_Ryan has made the advancement [Hidden in the Depths]
+[20:59:07] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:59:16] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:59:19] [Server thread/INFO]: AnVius0623 issued server command: /speed 2
+[20:59:23] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:59:32] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:59:36] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:59:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[20:59:43] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[20:59:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[21:00:00] [Server thread/INFO]: AnVius0623 issued server command: /gamemode adventure
+[21:00:01] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[21:00:01] [Server thread/INFO]: AnVius0623 fell from a high place
+[21:00:21] [Server thread/INFO]: AnVius0623 issued server command: /gamemode adventure
+[21:00:23] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[21:00:28] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[21:02:38] [User Authenticator #2/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[21:02:39] [Server thread/INFO]: Chrischoy58 joined the game
+[21:02:39] [Server thread/INFO]: Chrischoy58[/127.2.127.83:6503] logged in with entity id 20327 at ([world]-60.75113, 72.0, 38.9636)
+[21:02:47] [Server thread/INFO]: AnVius0623 issued server command: /heal Chrischoy58
+[21:02:53] [Server thread/INFO]: AnVius0623 issued server command: /tp Chrischoy58 Winter_Ryan
+[21:02:59] [Server thread/INFO]: Chrischoy58 has reached the goal [Postmortal]
+[21:03:03] [Async Chat Thread - #3/INFO]: <AnVius0623> fight me
+[21:03:13] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[21:03:18] [Async Chat Thread - #3/INFO]: <AnVius0623> fight me
+[21:03:19] [Async Chat Thread - #3/INFO]: <Winter_Ryan> fight me
+[21:03:23] [Server thread/INFO]: Chrischoy58 was slain by Winter_Ryan
+[21:03:24] [Server thread/WARN]: Chrischoy58 was kicked due to keepalive timeout!
+[21:03:24] [Server thread/INFO]: Chrischoy58 lost connection: Timed out
+[21:03:24] [Server thread/INFO]: Chrischoy58 left the game
+[21:03:37] [Async Chat Thread - #3/INFO]: <AnVius0623> fight me
+[21:04:17] [User Authenticator #3/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[21:04:17] [Server thread/INFO]: Chrischoy58 joined the game
+[21:04:17] [Server thread/INFO]: Chrischoy58[/127.2.127.83:6557] logged in with entity id 20720 at ([world]10.5, 73.92159999847412, 43.5)
+[21:04:35] [Server thread/INFO]: AnVius0623 issued server command: /tp Chrischoy58 AnVius0623
+[21:04:38] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
+[21:04:38] [Server thread/INFO]: AnVius0623 left the game
+[21:04:56] [Server thread/INFO]: Winter_Ryan lost connection: Disconnected
+[21:04:56] [Server thread/INFO]: Winter_Ryan left the game
+[21:05:02] [Server thread/WARN]: Chrischoy58 was kicked due to keepalive timeout!
+[21:05:02] [Server thread/INFO]: Chrischoy58 lost connection: Timed out
+[21:05:02] [Server thread/INFO]: Chrischoy58 left the game
+[21:05:47] [Server thread/INFO]: Unknown command. Type "/help" for help.

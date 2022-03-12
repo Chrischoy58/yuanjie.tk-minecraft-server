@@ -1,19 +1,25 @@
 {
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-03-04 10:50:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lever": {
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "in_water": "2022-03-01 11:09:46 +0800"
     },
     "done": true
   },
@@ -29,33 +35,33 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2022-03-04 10:46:44 +0800"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone": {
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
-      "get_stone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/furnace_minecart": {
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
-      "has_minecart": "2022-03-06 15:35:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
@@ -70,16 +76,9 @@
       "minecraft:dark_forest": "2022-02-28 17:39:21 +0800",
       "minecraft:swamp": "2022-03-01 21:15:04 +0800",
       "minecraft:lush_caves": "2022-03-01 11:10:27 +0800",
-      "minecraft:windswept_forest": "2022-03-01 11:09:46 +0800",
-      "minecraft:plains": "2022-03-06 15:39:37 +0800"
+      "minecraft:windswept_forest": "2022-03-01 11:09:46 +0800"
     },
     "done": false
-  },
-  "minecraft:recipes/transportation/chest_minecart": {
-    "criteria": {
-      "has_minecart": "2022-03-06 15:35:40 +0800"
-    },
-    "done": true
   },
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
@@ -93,9 +92,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
@@ -111,27 +110,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2022-03-06 15:35:40 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/combat/stone_sword": {
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
@@ -141,13 +128,25 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_pickaxe": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "in_water": "2022-03-01 11:09:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2022-03-10 21:02:59 +0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-03-04 10:50:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-03-04 10:50:10 +0800"
     },
@@ -171,9 +170,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
+      "has_bed": "2022-03-04 10:50:10 +0800"
     },
     "done": true
   },
@@ -183,119 +182,5 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2022-03-01 11:09:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2022-03-04 10:46:44 +0800"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/green_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2022-03-06 15:35:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/rail": {
-    "criteria": {
-      "has_minecart": "2022-03-06 15:35:40 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/red_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2022-03-01 11:09:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2022-03-06 15:35:19 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-03-04 10:50:10 +0800"
-    },
-    "done": true
-  },
-  "DataVersion": 2865
+  "DataVersion": 2975
 }

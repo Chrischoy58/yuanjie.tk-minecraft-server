@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1646800876760
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1646807293037
+  login: 1646806433910
+money: '0'
+last-account-name: AnVius0623
+logoutlocation:
+  world: b318d1f7-21c7-4b00-aca8-a3e274414437
+  world-name: world
+  x: -35.59244099441591
+  y: 87.85369990039085
+  z: 37.204225044107076
+  yaw: -178.00262451171875
+  pitch: 38.84991455078125
+lastlocation:
+  world: b318d1f7-21c7-4b00-aca8-a3e274414437
+  world-name: world
+  x: -9.26960944309018
+  y: 63.0
+  z: 7.34477217910445
+  yaw: -5.257843017578125
+  pitch: -3.6001124382019043
