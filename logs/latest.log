@@ -1,363 +1,815 @@
-[20:02:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:02:33] [Worker-Main-2/INFO]: Loaded 7 recipes
-[20:02:36] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[20:02:36] [Server thread/INFO]: Loading properties
-[20:02:36] [Server thread/INFO]: This server is running Paper version git-Paper-237 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: b55ba19)
-[20:02:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:02:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:02:36] [Server thread/INFO]: Default game type: SURVIVAL
-[20:02:36] [Server thread/INFO]: Generating keypair
-[20:02:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:02:37] [Server thread/INFO]: Using default channel type
-[20:02:37] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[20:02:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:02:41] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
-[20:02:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
-[20:02:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[20:02:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[20:02:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[20:02:42] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[20:02:42] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[20:02:42] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[20:02:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[20:02:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[20:02:42] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4-dev+3-997fb18
-[20:02:42] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.2.0
-[20:02:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:02:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:02:42] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[20:02:42] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[20:02:42] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[20:02:43] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[20:02:43] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[20:02:43] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[20:02:43] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[20:02:43] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[20:02:43] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[20:02:43] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[20:02:43] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[20:02:43] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.4-dev+3-997fb18
-[20:02:43] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[20:02:43] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
-[20:02:43] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
-[20:02:43] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.13
-[20:02:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.2-SNAPSHOT
-[20:02:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:02:43] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
-[20:02:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:02:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:02:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:02:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:02:44] [Server thread/INFO]: Preparing level "world"
-[20:02:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:02:47] [Server thread/INFO]: Time elapsed: 856 ms
-[20:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:02:48] [Server thread/INFO]: Time elapsed: 242 ms
-[20:02:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:02:48] [Server thread/INFO]: Time elapsed: 159 ms
-[20:02:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
-[20:02:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4-dev+3-997fb18
-[20:02:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:02:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:02:50] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[20:02:50] [Server thread/INFO]: [Essentials] Using locale en_MY
-[20:02:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:02:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:02:50] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:02:50] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.2.0
-[20:02:50] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.4-dev+3-997fb18
-[20:02:51] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[20:02:51] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[20:02:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[20:02:52] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[20:02:52] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[20:02:52] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
-[20:02:52] [Server thread/INFO]: Time elapsed: 138 ms
-[20:02:52] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[20:02:52] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[20:02:52] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
-[20:02:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.13
-[20:02:55] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R2, using MappingSpigotSkinRefresher.
-[20:02:55] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:03:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.2-SNAPSHOT
-[20:03:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:03:02] [Server thread/INFO]: [Geyser-Spigot] 
-[20:03:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.2-SNAPSHOT (git-master-a1bb434)
-[20:03:02] [Server thread/INFO]: [Geyser-Spigot] 
-[20:03:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:03:13] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
-[20:03:13] [Server thread/INFO]: [Geyser-Spigot] Done (10.854s)! Run /geyser help for help!
-[20:03:13] [Server thread/INFO]: Running delayed init tasks
-[20:03:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
-[20:03:14] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:03:14] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[20:03:14] [Server thread/INFO]: Done (38.220s)! For help, type "help"
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.13
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[20:03:14] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:03:14] [Server thread/INFO]: Timings Reset
-[20:03:20] [Server thread/WARN]: UUID of added entity already exists: EntityVillager['Villager'/167, uuid='8746593f-7df1-4bc5-a86e-ecc785874709', l='ServerLevel[world]', x=-34.53, y=79.56, z=16.51, cpos=[-3, 1], tl=302280, v=false]
-[20:03:20] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/200, uuid='b987cf8e-0d71-4f97-bf5a-788e8af264ff', l='ServerLevel[world]', x=-27.01, y=-26.90, z=37.45, cpos=[-2, 2], tl=159666, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/260, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-66.22, y=-60.00, z=-63.73, cpos=[-5, -4], tl=97467, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/262, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=20.63, y=78.00, z=52.45, cpos=[1, 3], tl=1769553, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/265, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=29.53, y=80.00, z=31.73, cpos=[1, 1], tl=1673551, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/274, uuid='351445f9-860d-415b-9f7e-ddda0bab0f43', l='ServerLevel[world]', x=22.50, y=65.00, z=80.47, cpos=[1, 5], tl=44414, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/276, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=31.44, y=74.00, z=223.44, cpos=[1, 13], tl=1496472, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/294, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=34.92, y=81.00, z=37.54, cpos=[2, 2], tl=1757552, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/299, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-54.18, y=-60.00, z=-58.82, cpos=[-4, -4], tl=109467, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/300, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-51.81, y=-60.00, z=-68.20, cpos=[-4, -5], tl=115466, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/309, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=53.50, y=77.00, z=216.26, cpos=[3, 13], tl=1850472, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/311, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=62.02, y=83.00, z=235.63, cpos=[3, 14], tl=1796473, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/316, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-37.23, y=-60.00, z=-116.28, cpos=[-3, -8], tl=175463, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/317, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-40.95, y=-60.00, z=-92.06, cpos=[-3, -6], tl=157465, v=false]
-[20:03:21] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/318, uuid='c3895bf8-1faa-4f0b-b164-801bf3a5697e', l='ServerLevel[flat]', x=-32.21, y=-60.00, z=-101.79, cpos=[-3, -7], tl=163464, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/324, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=73.82, y=85.00, z=235.49, cpos=[4, 14], tl=1814473, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/326, uuid='a09252b7-4a54-4b60-8077-b2023551ffce', l='ServerLevel[world]', x=89.77, y=81.00, z=220.52, cpos=[5, 13], tl=926952, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/327, uuid='ded724d5-09de-4fea-a14d-c07bcd5bea5c', l='ServerLevel[world]', x=80.72, y=84.00, z=232.23, cpos=[5, 14], tl=1820473, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/339, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=42.68, y=-60.00, z=-138.48, cpos=[2, -9], tl=355459, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/340, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=42.51, y=-60.00, z=-123.51, cpos=[2, -8], tl=343459, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/341, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=58.17, y=-60.00, z=-106.22, cpos=[3, -7], tl=229460, v=false]
-[20:03:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/342, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=48.29, y=-60.00, z=-126.54, cpos=[3, -8], tl=319460, v=false]
-[20:03:23] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/344, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=83.76, y=-60.00, z=-109.71, cpos=[5, -7], tl=271461, v=false]
-[20:05:35] [User Authenticator #1/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
-[20:05:39] [Server thread/INFO]: Winter_Ryan joined the game
-[20:05:40] [Server thread/INFO]: Winter_Ryan[/127.171.221.144:1535] logged in with entity id 409 at ([world]3.5535694863974716, 97.55906820514048, 114.63047706595881)
-[20:05:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8220ms or 164 ticks behind
-[20:05:47] [Server thread/WARN]: Winter_Ryan moved too quickly! 0.0,-28.51493181546985,0.0
-[20:05:49] [Server thread/WARN]: Winter_Ryan moved too quickly! -3.3909169020147205,5.43760434503686,-12.536098371584387
-[20:05:54] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/444, uuid='5930d5dc-f142-4118-a2c3-fd6710da3739', l='ServerLevel[world]', x=160.13, y=72.00, z=-30.12, cpos=[10, -2], tl=138362, v=false]
-[20:05:59] [User Authenticator #1/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
-[20:06:00] [Server thread/INFO]: AnVius0623 joined the game
-[20:06:03] [Server thread/INFO]: AnVius0623[/127.0.0.1:1572] logged in with entity id 465 at ([world_nether]-12.84531422885513, 216.0135834436091, -14.728236336711445)
-[20:06:13] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/470, uuid='136d49b5-f931-41aa-9319-4d3e31e3d3ff', l='ServerLevel[world_nether]', x=-115.22, y=31.50, z=15.23, cpos=[-8, 0], tl=125500, v=false]
-[20:06:19] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/512, uuid='f13690d8-9a6d-41b5-98b5-46789fa5b6cb', l='ServerLevel[world_nether]', x=-96.51, y=31.50, z=96.22, cpos=[-7, 6], tl=30109, v=false]
-[20:06:19] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/513, uuid='a3ae21f3-3890-4bf8-a829-fab29d125e74', l='ServerLevel[world_nether]', x=-92.25, y=31.50, z=114.53, cpos=[-6, 7], tl=162524, v=false]
-[20:06:26] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/569, uuid='8433584c-dd34-4436-b22b-9efcca716f5c', l='ServerLevel[world]', x=-217.88, y=66.00, z=109.72, cpos=[-14, 6], tl=433635, v=false]
-[20:06:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22239ms or 444 ticks behind
-[20:06:37] [Server thread/INFO]: AnVius0623 was fireballed by Ghast
-[20:06:48] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/681, uuid='8e8a253c-2b9f-4377-bda2-46c4c13562b6', l='ServerLevel[world]', x=-224.08, y=64.00, z=188.92, cpos=[-15, 11], tl=825248, v=false]
-[20:06:52] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:06:55] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:06:56] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:07:06] [Server thread/INFO]: Winter_Ryan has made the advancement [Acquire Hardware]
-[20:07:42] [Server thread/INFO]: AnVius0623 issued server command: /difficulty normal
-[20:07:42] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Normal]
-[20:08:17] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:08:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5320ms or 106 ticks behind
-[20:09:00] [Server thread/INFO]: AnVius0623 issued server command: /fill -4 213 -6
-[20:09:11] [Server thread/INFO]: AnVius0623 issued server command: /fill -4 213 -6 7 213 -15 minecraft:magma_block
-[20:09:11] [Server thread/INFO]: [AnVius0623: Successfully filled 89 blocks]
-[20:10:06] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[20:10:57] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:12:04] [Server thread/INFO]: AnVius0623 issued server command: /difficulty hard
-[20:12:04] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Hard]
-[20:13:44] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 217 8
-[20:13:53] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 217 8 -8 217 -2 minecraft:magma_block
-[20:13:53] [Server thread/INFO]: [AnVius0623: Successfully filled 79 blocks]
-[20:13:57] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 217 -6
-[20:14:11] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 217 -6 -16 217 -15 minecraft:magma_block
-[20:14:11] [Server thread/INFO]: [AnVius0623: Successfully filled 71 blocks]
-[20:14:19] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 217 -15
-[20:14:31] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 217 -15 -4 217 -6 minecraft:magma_blockd
-[20:14:40] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 217 -15 -4 217 -6 minecraft:magma_block
-[20:14:40] [Server thread/INFO]: [AnVius0623: Successfully filled 98 blocks]
-[20:14:47] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 221 -15
-[20:15:00] [Server thread/INFO]: AnVius0623 issued server command: /fill -16 221 -15 -8 221 -6 minecraft:magma_block
-[20:15:00] [Server thread/INFO]: [AnVius0623: Successfully filled 71 blocks]
-[20:15:06] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 221 -2
-[20:15:17] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 221 -2 -16 221 8 minecraft:magma_block
-[20:15:17] [Server thread/INFO]: [AnVius0623: Successfully filled 79 blocks]
-[20:15:26] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 221 -15
-[20:15:36] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 221 -15 -4 221 -6 minecraft:magma_block
-[20:15:36] [Server thread/INFO]: [AnVius0623: Successfully filled 98 blocks]
-[20:15:44] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 225 8
-[20:15:55] [Server thread/INFO]: AnVius0623 issued server command: /fill 7 225 8 -4 225 -2 minecraft:magma_block
-[20:15:55] [Server thread/INFO]: [AnVius0623: Successfully filled 109 blocks]
-[20:16:01] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 225 -2
-[20:16:10] [Server thread/INFO]: AnVius0623 issued server command: /fill -8 225 -2 -16 225 8 minecraft:magma_block
-[20:16:10] [Server thread/INFO]: [AnVius0623: Successfully filled 79 blocks]
-[20:19:29] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:19:43] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @a minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:1000s}]} 1
-[20:19:43] [Server thread/INFO]: [AnVius0623: Gave 1 [Diamond Pickaxe] to 2]
-[20:19:45] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:21:44] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:22:02] [Server thread/INFO]: AnVius0623 fell from a high place
-[20:22:06] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:22:07] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:22:11] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:22:15] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:22:17] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:22:26] [Server thread/INFO]: AnVius0623 fell from a high place
-[20:22:31] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:22:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:22:52] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
-[20:23:54] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @p minecraft:diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:1000s,id:"minecraft:unbreaking",lvl:1000s}]} 1
-[20:23:54] [Server thread/INFO]: [AnVius0623: Gave 1 [Diamond Pickaxe] to AnVius0623]
-[20:25:33] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @a diamond_pickaxe{Enchantments:[{id:"efficiency",lvl:1000},{id:"unbreaking",lvl:1000}]}
-[20:25:33] [Server thread/INFO]: [AnVius0623: Gave 1 [Diamond Pickaxe] to 2]
-[20:25:44] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:25:47] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:25:47] [Server thread/WARN]: AnVius0623 moved too quickly! -60.19999998807907,-105.49410696358134,-17.82032903331975
-[20:25:48] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:26:29] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:26:33] [Server thread/INFO]: AnVius0623 issued server command: /warp stronghold
-[20:26:33] [Server thread/WARN]: AnVius0623 moved too quickly! 1856.9966213525386,81.0,-1157.387055487795
-[20:26:33] [Server thread/INFO]: AnVius0623 has made the advancement [Eye Spy]
-[20:26:36] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[20:26:36] [Server thread/INFO]: Winter_Ryan has made the advancement [Eye Spy]
-[20:26:43] [Server thread/INFO]: AnVius0623 issued server command: /warp nether_fortress
-[20:26:43] [Server thread/INFO]: AnVius0623 has made the advancement [A Terrible Fortress]
-[20:26:49] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[20:26:49] [Server thread/INFO]: Winter_Ryan has made the advancement [A Terrible Fortress]
-[20:27:11] [Server thread/INFO]: Winter_Ryan has made the advancement [Into Fire]
-[20:27:11] [Server thread/INFO]: AnVius0623 was slain by Blaze
-[20:27:17] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:27:36] [Server thread/INFO]: Winter_Ryan issued server command: /effect give Winter_Ryan minecraft:night_vision 999999
-[20:27:36] [Server thread/INFO]: [Winter_Ryan: Applied effect Night Vision to Winter_Ryan]
-[20:27:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:27:42] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:28:05] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:28:09] [Server thread/INFO]: AnVius0623 issued server command: /warp home
-[20:28:16] [Server thread/INFO]: Winter_Ryan issued server command: /homes
-[20:29:02] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:30:32] [Server thread/INFO]: Winter_Ryan has made the advancement [A Seedy Place]
-[20:31:35] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:31:54] [Server thread/INFO]: AnVius0623 issued server command: /warp pvp
-[20:32:00] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:32:00] [Server thread/WARN]: AnVius0623 moved too quickly! 28.0,36.0,4.0
-[20:32:00] [Server thread/WARN]: AnVius0623 moved too quickly! 28.0,36.0,4.0
-[20:32:43] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:32:46] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:32:46] [Server thread/WARN]: AnVius0623 moved too quickly! 14.172943559555296,40.0,-2.193647278011298
-[20:32:55] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:33:00] [Server thread/INFO]: AnVius0623 issued server command: /head
-[20:33:05] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:33:05] [Server thread/WARN]: AnVius0623 moved too quickly! 8.755226993293977,29.0,8.065388637002258
-[20:33:05] [Server thread/WARN]: AnVius0623 moved too quickly! 8.755226993293977,29.0,8.065388637002258
-[20:33:05] [Server thread/WARN]: AnVius0623 moved too quickly! 8.755226993293977,29.0,8.065388637002258
-[20:33:14] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[20:33:22] [Async Chat Thread - #0/INFO]: <AnVius0623> head
-[20:33:27] [Server thread/INFO]: Winter_Ryan issued server command: /head
-[20:33:31] [Server thread/INFO]: AnVius0623 issued server command: /head
-[20:33:49] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:33:51] [Server thread/INFO]: Winter_Ryan issued server command: /head
-[20:34:25] [Server thread/INFO]: Winter_Ryan issued server command: /head
-[20:34:53] [Server thread/INFO]: AnVius0623 fell from a high place
-[20:34:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:35:01] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:35:01] [Server thread/WARN]: AnVius0623 moved too quickly! 8.752001596712354,7.0,53.80000001192093
-[20:35:04] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:35:18] [Server thread/INFO]: AnVius0623 issued server command: /tp Winter_Ryan
-[20:35:18] [Server thread/WARN]: AnVius0623 moved too quickly! 6.053546509689738,-7.0,54.98736619171657
-[20:35:18] [Server thread/WARN]: AnVius0623 moved too quickly! 6.053546509689738,-7.0,54.98736619171657
-[20:35:22] [Server thread/INFO]: AnVius0623 issued server command: /tp2p Winter_Ryan
-[20:35:36] [Server thread/INFO]: AnVius0623 issued server command: /tpaccept *
-[20:35:51] [Server thread/INFO]: AnVius0623 issued server command: /warp home
-[20:35:51] [Server thread/WARN]: AnVius0623 moved too quickly! -22.284883342527486,10.0,-72.36469925445788
-[20:35:51] [Server thread/WARN]: AnVius0623 moved too quickly! -22.284883342527486,10.0,-72.36469925445788
-[20:36:44] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:37:34] [Server thread/INFO]: AnVius0623 issued server command: /minecraft:give @a minecraft:netherite_shovel{Enchantments:[{id:"efficiency",lvl:1000},{id:"unbreaking",lvl:1000}]}
-[20:37:34] [Server thread/INFO]: [AnVius0623: Gave 1 [Netherite Shovel] to 2]
-[20:37:41] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
-[20:38:37] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:38:49] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
-[20:39:34] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:39:38] [Server thread/INFO]: AnVius0623 issued server command: /warp nether_fortress
-[20:39:38] [Server thread/WARN]: AnVius0623 moved too quickly! -689.2218762826803,40.799999952316284,215.17174759037948
-[20:39:39] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:40:42] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:40:44] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:40:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:41:01] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:41:21] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:41:25] [Server thread/INFO]: Winter_Ryan issued server command: /tp
-[20:41:31] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[20:41:34] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
-[20:42:01] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:42:32] [Server thread/INFO]: AnVius0623 issued server command: /warp home
-[20:42:41] [Server thread/INFO]: Winter_Ryan issued server command: /tp
-[20:42:49] [Server thread/INFO]: Winter_Ryan issued server command: /homes
-[20:43:23] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:44:57] [Server thread/INFO]: AnVius0623 issued server command: /warp home
-[20:44:57] [Server thread/WARN]: AnVius0623 moved too quickly! -37.75545145249329,54.0,-30.332792390159028
-[20:44:57] [Server thread/WARN]: AnVius0623 moved too quickly! -37.75545145249329,54.0,-30.332792390159028
-[20:45:58] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:46:03] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:46:09] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
-[20:46:42] [Server thread/INFO]: AnVius0623 issued server command: /tpask Winter_Ryan
-[20:47:07] [Server thread/INFO]: Winter_Ryan issued server command: /tpaccept
-[20:47:07] [Server thread/WARN]: AnVius0623 moved too quickly! -42.38207282399546,-95.24918707874468,-44.42364748657705
-[20:47:07] [Server thread/WARN]: AnVius0623 moved too quickly! -42.38207282399546,-95.24918707874468,-44.42364748657705
-[20:47:07] [Server thread/WARN]: AnVius0623 moved too quickly! -42.38207282399546,-95.24918707874468,-44.42364748657705
-[20:47:41] [Async Chat Thread - #1/INFO]: <AnVius0623> echest
-[20:48:05] [Server thread/INFO]: Winter_Ryan issued server command: /echest
-[20:49:48] [Server thread/INFO]: AnVius0623 issued server command: /speed 5
-[20:50:12] [Server thread/INFO]: Winter_Ryan issued server command: /tp AnVius0623
-[20:50:26] [Server thread/INFO]: AnVius0623 issued server command: /speed 2
-[20:51:30] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:51:31] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:51:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:52:25] [Server thread/INFO]: Winter_Ryan issued server command: /speed
-[20:52:34] [Server thread/INFO]: AnVius0623 issued server command: /speed 10
-[20:52:37] [Server thread/INFO]: Winter_Ryan issued server command: /speed 5
-[20:52:53] [Server thread/INFO]: Winter_Ryan issued server command: /speed 10
-[20:54:01] [Server thread/INFO]: Winter_Ryan issued server command: /homes
-[20:54:14] [Async Chat Thread - #2/INFO]: <AnVius0623> warp home
-[20:54:21] [Server thread/INFO]: AnVius0623 issued server command: /warp home
-[20:54:21] [Server thread/WARN]: AnVius0623 moved too quickly! -24.657554731095953,131.0,-70.97965939431953
-[20:54:21] [Server thread/WARN]: AnVius0623 moved too quickly! -24.657554731095953,131.0,-70.97965939431953
-[20:54:29] [Server thread/INFO]: AnVius0623 issued server command: /speed 2
-[20:55:19] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
-[20:56:47] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
-[20:56:52] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:58:07] [Server thread/INFO]: AnVius0623 issued server command: /heal
-[20:58:09] [Server thread/INFO]: Winter_Ryan has made the advancement [Hidden in the Depths]
-[20:59:07] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:59:16] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:59:19] [Server thread/INFO]: AnVius0623 issued server command: /speed 2
-[20:59:23] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:59:32] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:59:36] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:59:41] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[20:59:43] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[20:59:58] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[21:00:00] [Server thread/INFO]: AnVius0623 issued server command: /gamemode adventure
-[21:00:01] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[21:00:01] [Server thread/INFO]: AnVius0623 fell from a high place
-[21:00:21] [Server thread/INFO]: AnVius0623 issued server command: /gamemode adventure
-[21:00:23] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
-[21:00:28] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
-[21:02:38] [User Authenticator #2/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
-[21:02:39] [Server thread/INFO]: Chrischoy58 joined the game
-[21:02:39] [Server thread/INFO]: Chrischoy58[/127.2.127.83:6503] logged in with entity id 20327 at ([world]-60.75113, 72.0, 38.9636)
-[21:02:47] [Server thread/INFO]: AnVius0623 issued server command: /heal Chrischoy58
-[21:02:53] [Server thread/INFO]: AnVius0623 issued server command: /tp Chrischoy58 Winter_Ryan
-[21:02:59] [Server thread/INFO]: Chrischoy58 has reached the goal [Postmortal]
-[21:03:03] [Async Chat Thread - #3/INFO]: <AnVius0623> fight me
-[21:03:13] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
-[21:03:18] [Async Chat Thread - #3/INFO]: <AnVius0623> fight me
-[21:03:19] [Async Chat Thread - #3/INFO]: <Winter_Ryan> fight me
-[21:03:23] [Server thread/INFO]: Chrischoy58 was slain by Winter_Ryan
-[21:03:24] [Server thread/WARN]: Chrischoy58 was kicked due to keepalive timeout!
-[21:03:24] [Server thread/INFO]: Chrischoy58 lost connection: Timed out
-[21:03:24] [Server thread/INFO]: Chrischoy58 left the game
-[21:03:37] [Async Chat Thread - #3/INFO]: <AnVius0623> fight me
-[21:04:17] [User Authenticator #3/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
-[21:04:17] [Server thread/INFO]: Chrischoy58 joined the game
-[21:04:17] [Server thread/INFO]: Chrischoy58[/127.2.127.83:6557] logged in with entity id 20720 at ([world]10.5, 73.92159999847412, 43.5)
-[21:04:35] [Server thread/INFO]: AnVius0623 issued server command: /tp Chrischoy58 AnVius0623
-[21:04:38] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
-[21:04:38] [Server thread/INFO]: AnVius0623 left the game
-[21:04:56] [Server thread/INFO]: Winter_Ryan lost connection: Disconnected
-[21:04:56] [Server thread/INFO]: Winter_Ryan left the game
-[21:05:02] [Server thread/WARN]: Chrischoy58 was kicked due to keepalive timeout!
-[21:05:02] [Server thread/INFO]: Chrischoy58 lost connection: Timed out
-[21:05:02] [Server thread/INFO]: Chrischoy58 left the game
-[21:05:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:49:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:49:08] [Worker-Main-1/INFO]: Loaded 7 recipes
+[12:49:11] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[12:49:11] [Server thread/INFO]: Loading properties
+[12:49:11] [Server thread/INFO]: This server is running Paper version git-Paper-237 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: b55ba19)
+[12:49:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:49:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:49:12] [Server thread/INFO]: Default game type: SURVIVAL
+[12:49:12] [Server thread/INFO]: Generating keypair
+[12:49:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:49:12] [Server thread/INFO]: Using default channel type
+[12:49:12] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[12:49:12] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:49:15] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[12:49:15] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[12:49:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[12:49:15] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[12:49:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[12:49:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:49:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[12:49:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[12:49:16] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[12:49:16] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4-dev+3-997fb18
+[12:49:16] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.2.0
+[12:49:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[12:49:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[12:49:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[12:49:16] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[12:49:16] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[12:49:17] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[12:49:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[12:49:17] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[12:49:17] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.4-dev+3-997fb18
+[12:49:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[12:49:17] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
+[12:49:17] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[12:49:17] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.13
+[12:49:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.2-SNAPSHOT
+[12:49:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:49:17] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[12:49:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:49:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:49:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:49:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:49:17] [Server thread/INFO]: Preparing level "world"
+[12:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:49:19] [Server thread/INFO]: Time elapsed: 634 ms
+[12:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:49:20] [Server thread/INFO]: Time elapsed: 142 ms
+[12:49:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:49:20] [Server thread/INFO]: Time elapsed: 163 ms
+[12:49:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[12:49:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4-dev+3-997fb18
+[12:49:21] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:49:21] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:49:21] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[12:49:21] [Server thread/INFO]: [Essentials] Using locale en_MY
+[12:49:22] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:49:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:49:22] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:49:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.2.0
+[12:49:22] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.4-dev+3-997fb18
+[12:49:23] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[12:49:23] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[12:49:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[12:49:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:49:23] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:49:23] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
+[12:49:23] [Server thread/INFO]: Time elapsed: 511 ms
+[12:49:23] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[12:49:24] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:49:24] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
+[12:49:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.13
+[12:49:26] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R2, using MappingSpigotSkinRefresher.
+[12:49:26] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[12:49:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.2-SNAPSHOT
+[12:49:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:49:32] [Server thread/INFO]: [Geyser-Spigot] 
+[12:49:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.2-SNAPSHOT (git-master-a1bb434)
+[12:49:32] [Server thread/INFO]: [Geyser-Spigot] 
+[12:49:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:49:37] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
+[12:49:37] [Server thread/INFO]: [Geyser-Spigot] Done (5.206s)! Run /geyser help for help!
+[12:49:38] [Server thread/INFO]: Running delayed init tasks
+[12:49:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
+[12:49:38] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[12:49:38] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[12:49:38] [Server thread/INFO]: Done (26.731s)! For help, type "help"
+[12:49:38] [Server thread/INFO]: Timings Reset
+[12:49:38] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
+[12:49:38] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.0.5, which is 1 versions outdated.
+[12:49:38] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.0.6 from GitHub at the link below:
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[12:49:38] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.0.6
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.13
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[12:49:38] [Craft Scheduler Thread - 4 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:49:38] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
+[12:49:38] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[12:49:39] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/6, uuid='8e8a253c-2b9f-4377-bda2-46c4c13562b6', l='ServerLevel[world]', x=-199.43, y=69.00, z=182.43, cpos=[-13, 11], tl=823985, v=false]
+[12:49:39] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/29, uuid='69deaaeb-306b-4a63-8f9b-8fbc7e50fb7f', l='ServerLevel[world]', x=-126.15, y=65.00, z=182.17, cpos=[-8, 11], tl=623037, v=false]
+[12:49:39] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/205, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=13.55, y=70.00, z=73.48, cpos=[0, 4], tl=1907436, v=false]
+[12:49:39] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/218, uuid='da9a17a2-58b0-465b-aefa-ecdb8d83c53b', l='ServerLevel[world]', x=19.27, y=75.00, z=53.52, cpos=[1, 3], tl=1859435, v=false]
+[12:49:40] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/260, uuid='8e8a253c-2b9f-4377-bda2-46c4c13562b6', l='ServerLevel[world]', x=-186.45, y=66.00, z=178.36, cpos=[-12, 11], tl=818157, v=false]
+[12:49:40] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/261, uuid='d9ef712d-6f06-4956-b4dd-6eb76137b949', l='ServerLevel[world]', x=-165.20, y=79.00, z=299.80, cpos=[-11, 18], tl=47965, v=false]
+[12:49:40] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/338, uuid='44858b7c-ee83-42f9-a09c-3a36bba5158b', l='ServerLevel[flat]', x=-43.52, y=-60.00, z=-67.49, cpos=[-3, -5], tl=139342, v=false]
+[12:49:42] [Server thread/WARN]: UUID of added entity already exists: EntityPiglin['Piglin'/470, uuid='6ede4cba-71bd-448b-bbc4-2c3421bde984', l='ServerLevel[world_nether]', x=238.88, y=68.00, z=15.65, cpos=[14, 0], tl=568, v=false]
+[12:54:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7134ms or 142 ticks behind
+[12:55:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11649ms or 232 ticks behind
+[12:56:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6345ms or 126 ticks behind
+[12:58:50] [User Authenticator #1/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
+[12:58:51] [Server thread/INFO]: AnVius0623 joined the game
+[12:58:51] [Server thread/INFO]: AnVius0623[/127.0.0.1:11758] logged in with entity id 484 at ([world]-30.97371780061011, 71.0, 40.77733212347387)
+[12:58:59] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/556, uuid='8e8a253c-2b9f-4377-bda2-46c4c13562b6', l='ServerLevel[world]', x=-209.31, y=70.00, z=177.50, cpos=[-14, 11], tl=826762, v=false]
+[13:06:23] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:06:37] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:06:50] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:06:52] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[13:07:16] [Server thread/INFO]: AnVius0623 issued server command: /difficulty normal
+[13:07:16] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Normal]
+[13:07:24] [Server thread/INFO]: AnVius0623 issued server command: /summon minecraft:zombie
+[13:07:24] [Server thread/INFO]: [AnVius0623: Summoned new Zombie]
+[13:07:59] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:08:00] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:09:22] [Server thread/INFO]: AnVius0623 fell from a high place
+[13:09:26] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:09:29] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:10:00] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[13:10:28] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:11:13] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:12:05] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[13:17:43] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:18:02] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:18:21] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[13:19:16] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[13:19:16] [Server thread/WARN]: AnVius0623 moved too quickly! -57.80000001192093,9.0,24.881003069063937
+[13:20:00] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[13:20:27] [Server thread/INFO]: AnVius0623 issued server command: /repair
+[13:20:48] [Server thread/INFO]: AnVius0623 issued server command: /enchantment silktouch 1
+[13:23:32] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:23:45] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:25:40] [Server thread/INFO]: AnVius0623 issued server command: /give AnVius0623 hopper
+[13:29:01] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[13:29:01] [Server thread/WARN]: AnVius0623 moved too quickly! -17.144462615428672,4.0,-25.004702184747785
+[13:29:01] [Server thread/WARN]: AnVius0623 moved too quickly! -17.144462615428672,4.0,-25.004702184747785
+[13:29:16] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[13:32:12] [Server thread/INFO]: AnVius0623 issued server command: /warp home
+[13:32:12] [Server thread/WARN]: AnVius0623 moved too quickly! -39.36026160612912,8.0,26.382313205301337
+[13:32:12] [Server thread/WARN]: AnVius0623 moved too quickly! -39.36026160612912,8.0,26.382313205301337
+[13:37:13] [Server thread/INFO]: AnVius0623 issued server command: /heal
+[13:37:18] [Server thread/INFO]: AnVius0623 has made the advancement [Isn't It Iron Pick]
+[13:37:41] [Server thread/INFO]: AnVius0623 issued server command: /enchant unbreaking 3
+[13:37:48] [Server thread/INFO]: AnVius0623 issued server command: /enchant durability 3
+[13:38:05] [Server thread/INFO]: AnVius0623 issued server command: /enchant efficiency 5
+[13:38:32] [Server thread/INFO]: AnVius0623 issued server command: /enchant silktouch 1
+[13:39:48] [Server thread/INFO]: AnVius0623 issued server command: /fly
+[13:39:54] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/6921, uuid='d177c741-f229-4913-8aa4-ff288072e4cc', l='ServerLevel[world_nether]', x=-119.58, y=31.50, z=10.65, cpos=[-8, 0], tl=61670, v=false]
+[13:39:54] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/6922, uuid='f13690d8-9a6d-41b5-98b5-46789fa5b6cb', l='ServerLevel[world_nether]', x=-94.12, y=31.50, z=105.55, cpos=[-6, 6], tl=53620, v=false]
+[13:40:25] [Server thread/INFO]: AnVius0623 issued server command: /difficulty peaceful
+[13:40:25] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Peaceful]
+[13:40:34] [Server thread/INFO]: AnVius0623 issued server command: /difficulty hard
+[13:40:34] [Server thread/INFO]: [AnVius0623: The difficulty has been set to Hard]
+[13:40:36] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:40:43] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:40:56] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:41:02] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:41:04] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:41:08] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[13:41:22] [Server thread/INFO]: AnVius0623 issued server command: /summon minecraft:piglin
+[13:41:22] [Server thread/INFO]: [AnVius0623: Summoned new Piglin]
+[13:41:35] [Server thread/INFO]: AnVius0623 issued server command: /summon minecraft:piglin_brute
+[13:41:35] [Server thread/INFO]: [AnVius0623: Summoned new Piglin Brute]
+[13:41:55] [Server thread/INFO]: AnVius0623 issued server command: /summon minecraft:zombified_piglin
+[13:41:55] [Server thread/INFO]: [AnVius0623: Summoned new Zombified Piglin]
+[13:42:04] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:42:13] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[13:42:17] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:42:27] [Server thread/INFO]: AnVius0623 fell from a high place
+[13:42:39] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[13:42:43] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[13:42:46] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[13:42:47] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[13:42:50] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[13:43:08] [Server thread/INFO]: AnVius0623 issued server command: /summon minecraft:zombie
+[13:43:08] [Server thread/INFO]: [AnVius0623: Summoned new Zombie]
+[13:58:23] [Server thread/INFO]: AnVius0623 issued server command: /summon minecraft:zombie
+[13:58:23] [Server thread/INFO]: [AnVius0623: Summoned new Zombie]
+[14:04:22] [Server thread/INFO]: AnVius0623 issued server command: /gamemode spectator
+[14:04:23] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[14:04:26] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[14:07:36] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
+[14:07:37] [Server thread/INFO]: AnVius0623 left the game
+[14:14:51] [User Authenticator #2/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
+[14:15:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-237 (MC: 1.18.2) ---
+[14:15:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12570ms or 251 ticks behind
+[14:15:05] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[14:15:05] [Paper Watchdog Thread/ERROR]: ------------------------------
+[14:15:05] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[14:15:06] [Server thread/INFO]: AnVius0623 joined the game
+[14:15:10] [Server thread/INFO]: AnVius0623[/127.0.0.1:13068] logged in with entity id 10607 at ([world]-4.587627894857826, 70.0, 29.30000001192093)
+[14:15:10] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[14:15:14] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[14:15:14] [Paper Watchdog Thread/ERROR]: Entity UUID: 2976f123-be02-3a4c-9d79-e9deff20a447
+[14:15:16] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-4.587627894857826, 70.0, 29.30000001192093)
+[14:15:18] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
+[14:15:43] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-4.887627906778755, 70.0, 29.0] -> [-4.2876278829368974, 71.79999995231628, 29.600000023841858]
+[14:15:43] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 37416
+[14:15:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[14:15:46] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[14:15:46] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[14:15:46] [Paper Watchdog Thread/ERROR]: 	Stack:
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.travel(LivingEntity.java:2641)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:3307)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Mob.aiStep(Mob.java:628)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:154)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2917)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.Mob.tick(Mob.java:396)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.npc.Villager.tick(Villager.java:292)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:1134)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$7025/0x0000000802152458.accept(Unknown Source)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.guardEntityTick(Level.java:936)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.lambda$tick$5(ServerLevel.java:673)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.WorldServer$$Lambda$6890/0x0000000802110ec8.accept(Unknown Source)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:43)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:653)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1595)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1458)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4072/0x000000080146eed8.run(Unknown Source)
+[14:15:52] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[14:15:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[14:15:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[14:15:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[14:16:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33331ms or 666 ticks behind
+[14:17:36] [Server thread/INFO]: AnVius0623 issued server command: /warp pvp
+[14:17:36] [Server thread/WARN]: AnVius0623 moved too quickly! -0.854461155377507,-8.0,38.9301087976915
+[14:17:42] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[14:17:57] [Server thread/INFO]: AnVius0623 issued server command: /gamemode survival
+[14:18:18] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[14:19:33] [Server thread/INFO]: AnVius0623 lost connection: Disconnected
+[14:19:33] [Server thread/INFO]: AnVius0623 left the game
+[14:24:16] [User Authenticator #3/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[14:24:18] [Server thread/INFO]: Chrischoy58 joined the game
+[14:24:18] [Server thread/INFO]: Chrischoy58[/127.0.0.1:13442] logged in with entity id 11332 at ([world]10.5, 73.92159999847412, 43.5)
+[14:26:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:26:39] [Server thread/INFO]: Nothing changed. The player already is an operator
+[14:26:48] [Server thread/INFO]: CONSOLE issued server command: /help 
+[14:26:48] [Server thread/INFO]: To view help from the console, type '?'.
+[14:26:52] [Server thread/INFO]: --------- Help: Index ---------------------------
+[14:26:52] [Server thread/INFO]: Use /help [n] to get page n of help.
+[14:26:52] [Server thread/INFO]: Aliases: Lists command aliases
+[14:26:52] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[14:26:52] [Server thread/INFO]: Essentials: All commands for Essentials
+[14:26:52] [Server thread/INFO]: Geyser-Spigot: All commands for Geyser-Spigot
+[14:26:52] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[14:26:52] [Server thread/INFO]: MiniMOTD: All commands for MiniMOTD
+[14:26:52] [Server thread/INFO]: Multiverse-Core: All commands for Multiverse-Core
+[14:26:52] [Server thread/INFO]: SkinsRestorer: All commands for SkinsRestorer
+[14:26:52] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
+[14:26:52] [Server thread/INFO]: /advancement: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /afk: Marks you as away-from-keyboard.
+[14:26:52] [Server thread/INFO]: /antioch: A little surprise for operators.
+[14:26:52] [Server thread/INFO]: /anvil: Opens up an anvil.
+[14:26:52] [Server thread/INFO]: /attribute: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /back: Teleports you to your location prior to tp/spawn/warp.
+[14:26:52] [Server thread/INFO]: /backup: Runs the backup if configured.
+[14:26:52] [Server thread/INFO]: /balance: States the current balance of a player.
+[14:26:52] [Server thread/INFO]: /balancetop: Gets the top balance values.
+[14:26:52] [Server thread/INFO]: /ban: Bans a player.
+[14:26:52] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /banip: Bans an IP address.
+[14:26:52] [Server thread/INFO]: /banlist: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /beezooka: Throw an exploding bee at your opponent.
+[14:26:52] [Server thread/INFO]: /bigtree: Spawn a big tree where you are looking.
+[14:26:52] [Server thread/INFO]: /book: Allows reopening and editing of sealed books.
+[14:26:52] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /break: Breaks the block you are looking at.
+[14:26:52] [Server thread/INFO]: /broadcast: Broadcasts a message to the entire server.
+[14:26:52] [Server thread/INFO]: /broadcastworld: Broadcasts a message to a world.
+[14:26:52] [Server thread/INFO]: /bukkit:help: Shows the help menu
+[14:26:52] [Server thread/INFO]: /burn: Set a player on fire.
+[14:26:52] [Server thread/INFO]: /cartographytable: Opens up a cartography table.
+[14:26:52] [Server thread/INFO]: /clearinventory: Clear all items in your inventory.
+[14:26:52] [Server thread/INFO]: /clearinventoryconfirmtoggle: Toggles whether you are prompted to confirm inventory clears.
+[14:26:52] [Server thread/INFO]: /clone: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /compass: Describes your current bearing.
+[14:26:52] [Server thread/INFO]: /condense: Condenses items into a more compact blocks.
+[14:26:52] [Server thread/INFO]: /createkit: Create a kit in game!
+[14:26:52] [Server thread/INFO]: /customtext: Allows you to create custom text commands.
+[14:26:52] [Server thread/INFO]: /data: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /datapack: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /debug: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /delhome: Removes a home.
+[14:26:52] [Server thread/INFO]: /deljail: Removes a jail.
+[14:26:52] [Server thread/INFO]: /delkit: Deletes the specified kit.
+[14:26:52] [Server thread/INFO]: /delwarp: Deletes the specified warp.
+[14:26:52] [Server thread/INFO]: /deop: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /depth: States current depth, relative to sea level.
+[14:26:52] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /disposal: Opens a portable disposal menu.
+[14:26:52] [Server thread/INFO]: /eco: Manages the server economy.
+[14:26:52] [Server thread/INFO]: /editsign: Edits a sign in the world.
+[14:26:52] [Server thread/INFO]: /effect: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /enchant: Enchants the item the user is holding.
+[14:26:52] [Server thread/INFO]: /enderchest: Lets you see inside an enderchest.
+[14:26:52] [Server thread/INFO]: /essentials: Reloads essentials.
+[14:26:52] [Server thread/INFO]: /execute: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /exp: Give, set, reset, or look at a players experience.
+[14:26:52] [Server thread/INFO]: /experience: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /ext: Extinguish players.
+[14:26:52] [Server thread/INFO]: /feed: Satisfy the hunger.
+[14:26:52] [Server thread/INFO]: /fill: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /fireball: Throw a fireball or other assorted projectiles.
+[14:26:52] [Server thread/INFO]: /firework: Allows you to modify a stack of fireworks.
+[14:26:52] [Server thread/INFO]: /fly: Take off, and soar!
+[14:26:52] [Server thread/INFO]: /forceload: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /function: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /gamemode: Change player gamemode.
+[14:26:52] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /gc: Reports memory, uptime and tick info.
+[14:26:52] [Server thread/INFO]: /getpos: Get your current coordinates or those of a player.
+[14:26:52] [Server thread/INFO]: /geyser: The main command for Geyser.
+[14:26:52] [Server thread/INFO]: /give: Give a player an item.
+[14:26:52] [Server thread/INFO]: /god: Enables your godly powers.
+[14:26:52] [Server thread/INFO]: /grindstone: Opens up a grindstone.
+[14:26:52] [Server thread/INFO]: /hat: Get some cool new headgear.
+[14:26:52] [Server thread/INFO]: /heal: Heals you or the given player.
+[14:26:52] [Server thread/INFO]: /help: Views a list of available commands.
+[14:26:52] [Server thread/INFO]: /helpop: Message online admins.
+[14:26:52] [Server thread/INFO]: /home: Teleport to your home.
+[14:26:52] [Server thread/INFO]: /ice: Cools a player off.
+[14:26:52] [Server thread/INFO]: /ignore: Ignore or unignore other players.
+[14:26:52] [Server thread/INFO]: /info: Shows information set by the server owner.
+[14:26:52] [Server thread/INFO]: /invsee: See the inventory of other players.
+[14:26:52] [Server thread/INFO]: /item: Spawn an item.
+[14:26:52] [Server thread/INFO]: /itemdb: Searches for an item.
+[14:26:52] [Server thread/INFO]: /itemlore: Edit the lore of an item.
+[14:26:52] [Server thread/INFO]: /itemname: Names an item.
+[14:26:52] [Server thread/INFO]: /jails: List all jails.
+[14:26:52] [Server thread/INFO]: /jfr: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /jump: Jumps to the nearest block in the line of sight.
+[14:26:52] [Server thread/INFO]: /kick: Kicks a specified player with a reason.
+[14:26:52] [Server thread/INFO]: /kickall: Kicks all players off the server except the issuer.
+[14:26:52] [Server thread/INFO]: /kill: Kills specified player.
+[14:26:52] [Server thread/INFO]: /kit: Obtains the specified kit or views all available kits.
+[14:26:52] [Server thread/INFO]: /kitreset: Resets the cooldown on the specified kit.
+[14:26:52] [Server thread/INFO]: /kittycannon: Throw an exploding kitten at your opponent.
+[14:26:52] [Server thread/INFO]: /lightning: The power of Thor. Strike at cursor or player.
+[14:26:52] [Server thread/INFO]: /list: List all online players.
+[14:26:52] [Server thread/INFO]: /locate: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /locatebiome: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /loom: Opens up a loom.
+[14:26:52] [Server thread/INFO]: /loot: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /mail: Manages inter-player, intra-server mail.
+[14:26:52] [Server thread/INFO]: /me: Describes an action in the context of the player.
+[14:26:52] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /minimotd: MiniMOTD Command
+[14:26:52] [Server thread/INFO]: /more: Fills the item stack in hand to specified amount, or to maximum size if none is specified.
+[14:26:52] [Server thread/INFO]: /motd: Views the Message Of The Day.
+[14:26:52] [Server thread/INFO]: /msg: Sends a private message to the specified player.
+[14:26:52] [Server thread/INFO]: /msgtoggle: Blocks receiving all private messages.
+[14:26:52] [Server thread/INFO]: /mspt: View server tick times
+[14:26:52] [Server thread/INFO]: /mute: Mutes or unmutes a player.
+[14:26:52] [Server thread/INFO]: /mv: Generic Multiverse Command
+[14:26:52] [Server thread/INFO]: /mvanchors: Creating and removing Anchors command
+[14:26:52] [Server thread/INFO]: /mvcheck: Validate your multiverse settings command
+[14:26:52] [Server thread/INFO]: /mvclone: World clone command
+[14:26:52] [Server thread/INFO]: /mvconfig: Configuration command
+[14:26:52] [Server thread/INFO]: /mvconfirm: Confirms sensitive decisions like deleting a world.
+[14:26:52] [Server thread/INFO]: /mvcoord: Display World, Coordinates, Direction & Compression for a world.
+[14:26:52] [Server thread/INFO]: /mvcreate: World create command
+[14:26:52] [Server thread/INFO]: /mvdebug: Turns on debugging.
+[14:26:52] [Server thread/INFO]: /mvdelete: Delete world from server folders command
+[14:26:52] [Server thread/INFO]: /mvenv: Tells the user all possible environment types.
+[14:26:52] [Server thread/INFO]: /mvgamerule: Sets a gamerule.
+[14:26:52] [Server thread/INFO]: /mvgamerules: Lists the gamerules
+[14:26:52] [Server thread/INFO]: /mvgenerators: Displays all found world generators.
+[14:26:52] [Server thread/INFO]: /mvhelp: Displays the Multiverse Help.
+[14:26:52] [Server thread/INFO]: /mvimport: World import command
+[14:26:52] [Server thread/INFO]: /mvinfo: Gets world info.
+[14:26:52] [Server thread/INFO]: /mvlist: Print list of loaded Worlds
+[14:26:52] [Server thread/INFO]: /mvload: Loads a world into Multiverse.
+[14:26:52] [Server thread/INFO]: /mvmadd: Modify the settings of an existing world
+[14:26:52] [Server thread/INFO]: /mvmclear: Modify the settings of an existing world
+[14:26:52] [Server thread/INFO]: /mvmodify: Modify the settings of an existing world
+[14:26:52] [Server thread/INFO]: /mvmremove: Modify the settings of an existing world
+[14:26:52] [Server thread/INFO]: /mvmset: Modify the settings of an existing world
+[14:26:52] [Server thread/INFO]: /mvpurge: Purge the targetted world of creatures.
+[14:26:52] [Server thread/INFO]: /mvregen: Regenerates a world Multiverse already knows about.
+[14:26:52] [Server thread/INFO]: /mvreload: Reload Configuration files.
+[14:26:52] [Server thread/INFO]: /mvremove: Remove world from multiverse command
+[14:26:52] [Server thread/INFO]: /mvscript: Runs a script from the Multiverse scripts directory.
+[14:26:52] [Server thread/INFO]: /mvsetspawn: Set the spawn area for a particular world
+[14:26:52] [Server thread/INFO]: /mvsilent: Reduces startup messages
+[14:26:52] [Server thread/INFO]: /mvspawn: Teleport to the spawn area
+[14:26:52] [Server thread/INFO]: /mvtp: Command to teleport between Worlds
+[14:26:52] [Server thread/INFO]: /mvunload: World unload command
+[14:26:52] [Server thread/INFO]: /mvversion: Prints out version info.
+[14:26:52] [Server thread/INFO]: /mvwho: Display online users per world.
+[14:26:52] [Server thread/INFO]: /near: Lists the players near by or around a player.
+[14:26:52] [Server thread/INFO]: /nick: Change your nickname or that of another player.
+[14:26:52] [Server thread/INFO]: /nuke: May death rain upon them.
+[14:26:52] [Server thread/INFO]: /op: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /paper: Paper related commands
+[14:26:52] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /particle: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /pay: Pays another player from your balance.
+[14:26:52] [Server thread/INFO]: /payconfirmtoggle: Toggles whether you are prompted to confirm payments.
+[14:26:52] [Server thread/INFO]: /paytoggle: Toggles whether you are accepting payments.
+[14:26:52] [Server thread/INFO]: /perf: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /ping: Pong!
+[14:26:52] [Server thread/INFO]: /placefeature: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /playsound: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /playtime: Shows a player's time played in game
+[14:26:52] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[14:26:52] [Server thread/INFO]: /potion: Adds custom potion effects to a potion.
+[14:26:52] [Server thread/INFO]: /powertool: Assigns a command to the item in hand.
+[14:26:52] [Server thread/INFO]: /powertooltoggle: Enables or disables all current powertools.
+[14:26:52] [Server thread/INFO]: /ptime: Adjust player's client time. Add @ prefix to fix.
+[14:26:52] [Server thread/INFO]: /pweather: Adjust a player's weather
+[14:26:52] [Server thread/INFO]: /r: Quickly reply to the last player to message you.
+[14:26:52] [Server thread/INFO]: /realname: Displays the username of a user based on nick.
+[14:26:52] [Server thread/INFO]: /recipe: Displays how to craft items.
+[14:26:52] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[14:26:52] [Server thread/INFO]: /remove: Removes entities in your world.
+[14:26:52] [Server thread/INFO]: /repair: Repairs the durability of one or all items.
+[14:26:52] [Server thread/INFO]: /rest: Rests you or the given player.
+[14:26:52] [Server thread/INFO]: /restart: Restarts the server
+[14:26:52] [Server thread/INFO]: /rtoggle: Change whether the recipient of the reply is last recipient or last sender
+[14:26:52] [Server thread/INFO]: /rules: Views the server rules.
+[14:26:52] [Server thread/INFO]: /save-all: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /save-off: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /save-on: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /say: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /schedule: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /seed: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /seen: Shows the last logout time of a player.
+[14:26:52] [Server thread/INFO]: /sell: Sells the item currently in your hand.
+[14:26:52] [Server thread/INFO]: /setblock: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /sethome: Set your home to your current location.
+[14:26:52] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /setjail: Creates a jail where you specified named [jailname].
+[14:26:52] [Server thread/INFO]: /settpr: Set the random teleport location and parameters.
+[14:26:52] [Server thread/INFO]: /setwarp: Creates a new warp.
+[14:26:52] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /setworth: Set the sell value of an item.
+[14:26:52] [Server thread/INFO]: /showkit: Show contents of a kit.
+[14:26:52] [Server thread/INFO]: /skin: Set the skin of another player.
+[14:26:52] [Server thread/INFO]: /skins: 
+[14:26:52] [Server thread/INFO]: /skinsrestorer: 
+[14:26:52] [Server thread/INFO]: /skull: Set the owner of a player skull
+[14:26:52] [Server thread/INFO]: /smithingtable: Opens up a smithing table.
+[14:26:52] [Server thread/INFO]: /socialspy: Toggles if you can see msg/mail commands in chat.
+[14:26:52] [Server thread/INFO]: /spawner: Change the mob type of a spawner.
+[14:26:52] [Server thread/INFO]: /spawnmob: Spawns a mob.
+[14:26:52] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /spectate: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /speed: Change your speed limits.
+[14:26:52] [Server thread/INFO]: /spigot: Spigot related commands
+[14:26:52] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /sr: 
+[14:26:52] [Server thread/INFO]: /stonecutter: Opens up a stonecutter.
+[14:26:52] [Server thread/INFO]: /stop: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /sudo: Make another user perform a command.
+[14:26:52] [Server thread/INFO]: /suicide: Causes you to perish.
+[14:26:52] [Server thread/INFO]: /summon: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /tag: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /team: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /tempban: Temporary ban a user.
+[14:26:52] [Server thread/INFO]: /tempbanip: Temporarily ban an IP Address.
+[14:26:52] [Server thread/INFO]: /thunder: Enable/disable thunder.
+[14:26:52] [Server thread/INFO]: /time: Display/Change the world time. Defaults to current world.
+[14:26:52] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[14:26:52] [Server thread/INFO]: /title: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /tm: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /togglejail: Jails/Unjails a player, TPs them to the jail specified.
+[14:26:52] [Server thread/INFO]: /top: Teleport to the highest block at your current position.
+[14:26:52] [Server thread/INFO]: /tp: Teleport to a player.
+[14:26:52] [Server thread/INFO]: /tpa: Request to teleport to the specified player.
+[14:26:52] [Server thread/INFO]: /tpaall: Requests all players online to teleport to you.
+[14:26:52] [Server thread/INFO]: /tpacancel: Cancel all outstanding teleport requests. Specify [player] to cancel requests with them.
+[14:26:52] [Server thread/INFO]: /tpaccept: Accepts teleport requests.
+[14:26:52] [Server thread/INFO]: /tpahere: Request that the specified player teleport to you.
+[14:26:52] [Server thread/INFO]: /tpall: Teleport all online players to another player.
+[14:26:52] [Server thread/INFO]: /tpauto: Automatically accept teleportation requests.
+[14:26:52] [Server thread/INFO]: /tpdeny: Rejects teleport requests.
+[14:26:52] [Server thread/INFO]: /tphere: Teleport a player to you.
+[14:26:52] [Server thread/INFO]: /tpo: Teleport override for tptoggle.
+[14:26:52] [Server thread/INFO]: /tpoffline: Teleport to a player's last known logout location
+[14:26:52] [Server thread/INFO]: /tpohere: Teleport here override for tptoggle.
+[14:26:52] [Server thread/INFO]: /tppos: Teleport to coordinates.
+[14:26:52] [Server thread/INFO]: /tpr: Teleport randomly.
+[14:26:52] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[14:26:52] [Server thread/INFO]: /tptoggle: Blocks all forms of teleportation.
+[14:26:52] [Server thread/INFO]: /tree: Spawn a tree where you are looking.
+[14:26:52] [Server thread/INFO]: /trigger: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /unban: Unbans the specified player.
+[14:26:52] [Server thread/INFO]: /unbanip: Unbans the specified IP address.
+[14:26:52] [Server thread/INFO]: /unlimited: Allows the unlimited placing of items.
+[14:26:52] [Server thread/INFO]: /vanish: Hide yourself from other players.
+[14:26:52] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[14:26:52] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
+[14:26:52] [Server thread/INFO]: /warp: List all warps or warp to the specified location.
+[14:26:52] [Server thread/INFO]: /warpinfo: Finds location information for a specified warp.
+[14:26:52] [Server thread/INFO]: /weather: Sets the weather.
+[14:26:52] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /whois: Determine the username behind a nickname.
+[14:26:52] [Server thread/INFO]: /workbench: Opens up a workbench.
+[14:26:52] [Server thread/INFO]: /world: Switch between worlds.
+[14:26:52] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[14:26:52] [Server thread/INFO]: /worth: Calculates the worth of items in hand or as specified.
+[14:27:30] [Server thread/INFO]: CONSOLE issued server command: /ping Chrischoy58
+[14:27:30] [Server thread/INFO]: Chrischoy58
+[14:27:34] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
+[14:27:34] [Server thread/INFO]: Chrischoy58 left the game
+[14:28:04] [Server thread/INFO]: CONSOLE issued server command: /me hi
+[14:28:04] [Server thread/INFO]: * @ hi
+[14:28:10] [Server thread/INFO]: CONSOLE issued server command: /me @a hi
+[14:28:10] [Server thread/INFO]: * @ @a hi
+[14:28:19] [Server thread/INFO]: CONSOLE issued server command: /kick 
+[14:28:19] [Server thread/INFO]: Command Help: /kick
+[14:28:19] [Server thread/INFO]: Description: Kicks a specified player with a reason.
+[14:28:19] [Server thread/INFO]: Usage(s);
+[14:28:19] [Server thread/INFO]: /kick <player> [reason] - Kicks the specified player with an optional reason
+[14:28:58] [Server thread/INFO]: CONSOLE issued server command: /me hi
+[14:28:58] [Server thread/INFO]: * @ hi
+[14:29:24] [User Authenticator #4/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[14:29:25] [Server thread/INFO]: Chrischoy58 joined the game
+[14:29:25] [Server thread/INFO]: Chrischoy58[/127.0.0.1:13593] logged in with entity id 11342 at ([world]10.5, 73.92159999847412, 43.5)
+[14:31:34] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
+[14:31:37] [Server thread/INFO]: Chrischoy58 left the game
+[14:46:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5054ms or 101 ticks behind
+[15:11:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5431ms or 108 ticks behind
+[16:02:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-237 (MC: 1.18.2) ---
+[16:02:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14786ms or 295 ticks behind
+[16:02:54] [Paper Watchdog Thread/ERROR]: The server has not responded for 14 seconds! Creating thread dump
+[16:02:54] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:02:54] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:02:55] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:iron_golem, entity class: net.minecraft.world.entity.animal.EntityIronGolem
+[16:02:55] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[16:02:55] [Paper Watchdog Thread/ERROR]: Entity UUID: 8c92fa2b-2775-4619-b849-386f80ee12e4
+[16:02:55] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-51.97245263703138, 80.0, 44.410416662693024)
+[16:02:56] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[16:02:56] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-52.67245262511045, 80.0, 43.71041667461395] -> [-51.27245264895231, 82.70000004768372, 45.110416650772095]
+[16:03:06] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:03:06] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:03:06] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[16:03:06] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.ArrayList.iterator(ArrayList.java:947)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.HopperBlockEntity.suckInItems(HopperBlockEntity.java:468)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.HopperBlockEntity.lambda$pushItemsTick$0(HopperBlockEntity.java:141)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.TileEntityHopper$$Lambda$7180/0x0000000802189f58.getAsBoolean(Unknown Source)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.HopperBlockEntity.tryMoveItems(HopperBlockEntity.java:163)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.HopperBlockEntity.pushItemsTick(HopperBlockEntity.java:140)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.BlockHopper$$Lambda$7027/0x0000000802156868.tick(Unknown Source)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:1218)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:1170)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.tickBlockEntities(Level.java:917)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:682)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1595)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1458)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4072/0x000000080146eed8.run(Unknown Source)
+[16:03:16] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[16:03:16] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:03:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:03:16] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:18:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5104ms or 102 ticks behind
+[18:00:45] [User Authenticator #5/INFO]: UUID of player Chrischoy58 is bf519630-8570-3a8f-832a-29908c398274
+[18:00:55] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-237 (MC: 1.18.2) ---
+[18:00:55] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[18:00:55] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:00:55] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:00:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:00:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:00:57] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[18:00:57] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.UserCache$$Lambda$4211/0x00000008015aafb0.<init>(Unknown Source)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(DirectMethodHandle$Holder)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.GameProfileCache.save(GameProfileCache.java:304)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.GameProfileCache.add(GameProfileCache.java:138)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:192)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:215)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:196)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:84)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:558)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:201)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1624)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1458)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4072/0x000000080146eed8.run(Unknown Source)
+[18:01:00] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[18:01:00] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:00] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:01:00] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:01] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-237 (MC: 1.18.2) ---
+[18:01:01] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[18:01:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:01] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:01:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:01] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:01:01] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[18:01:01] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		io.netty.buffer.AbstractByteBuf.ensureWritable0(AbstractByteBuf.java:288)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		io.netty.buffer.AbstractByteBuf.writeByte(AbstractByteBuf.java:984)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.FriendlyByteBuf.writeByte(FriendlyByteBuf.java:1116)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.FriendlyByteBuf.writeVarInt(FriendlyByteBuf.java:429)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.FriendlyByteBuf.writeUtf(FriendlyByteBuf.java:579)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.FriendlyByteBuf.writeUtf(FriendlyByteBuf.java:570)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:276)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:215)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:196)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:84)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:558)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:201)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1624)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1458)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4072/0x000000080146eed8.run(Unknown Source)
+[18:01:02] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[18:01:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:01:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19766ms or 395 ticks behind
+[18:01:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-237 (MC: 1.18.2) ---
+[18:01:16] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[18:01:16] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:16] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:01:16] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[18:01:16] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: false, is passenger: false
+[18:01:16] [Paper Watchdog Thread/ERROR]: Entity UUID: bf519630-8570-3a8f-832a-29908c398274
+[18:01:16] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (10.5, 73.92159999847412, 43.5)
+[18:01:16] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
+[18:01:16] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[10.199999988079071, 73.92159999847412, 43.19999998807907] -> [10.800000011920929, 75.7215999507904, 43.80000001192093]
+[18:01:16] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 39625
+[18:01:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:20] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:01:20] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[18:01:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:01:21] [Server thread/INFO]: Chrischoy58 joined the game
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Class.getDeclaredFields0(Native Method)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Class.getDeclaredField(Class.java:2608)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		SkinsRestorer.jar//net.skinsrestorer.shadow.aikar.commands.BukkitCommandManager.readPlayerLocale(BukkitCommandManager.java:317)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		SkinsRestorer.jar//net.skinsrestorer.shadow.aikar.commands.ACFBukkitListener.onPlayerJoin(ACFBukkitListener.java:57)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeVirtual(DirectMethodHandle$Holder)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x00000008018c6000.invoke(LambdaForm$MH)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm$MH/0x0000000801a7c000.invoke_MT(LambdaForm$MH)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:629)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:363)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda$7697/0x0000000801a698b0.run(Unknown Source)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:567)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:201)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1624)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1458)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4072/0x000000080146eed8.run(Unknown Source)
+[18:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[18:01:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:01:21] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-237 (MC: 1.18.2) ---
+[18:01:22] [Paper Watchdog Thread/ERROR]: The server has not responded for 16 seconds! Creating thread dump
+[18:01:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:22] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[18:01:22] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[18:01:22] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: false, is passenger: false
+[18:01:22] [Paper Watchdog Thread/ERROR]: Entity UUID: bf519630-8570-3a8f-832a-29908c398274
+[18:01:22] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (10.5, 73.92159999847412, 43.5)
+[18:01:22] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
+[18:01:22] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[10.199999988079071, 73.92159999847412, 43.19999998807907] -> [10.800000011920929, 75.7215999507904, 43.80000001192093]
+[18:01:22] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 39625
+[18:01:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:22] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[18:01:22] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[18:01:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap.put(Object2BooleanOpenHashMap.java:286)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerMap.addPlayer(PlayerMap.java:17)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.updatePlayerStatus(ChunkMap.java:1876)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.addEntity(ChunkMap.java:2011)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.postChunkLoadJoin(PlayerList.java:397)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.lambda$placeNewPlayer$1(PlayerList.java:305)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList$$Lambda$7697/0x0000000801a698b0.run(Unknown Source)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:305)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:567)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:201)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1624)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:483)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1458)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4072/0x000000080146eed8.run(Unknown Source)
+[18:01:23] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[18:01:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[18:01:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[18:01:24] [Server thread/INFO]: Chrischoy58[/127.179.240.165:12017] logged in with entity id 11362 at ([world]10.5, 73.92159999847412, 43.5)
+[18:01:42] [Server thread/WARN]: Chrischoy58 moved too quickly! 0.0,-11.141611616128841,0.0
+[18:01:49] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:01:55] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:01:58] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24944ms or 498 ticks behind
+[18:02:05] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:10] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:15] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:20] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:26] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:33] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:39] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:47] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:02:53] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:01] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:08] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:13] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:20] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:27] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:33] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:39] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:47] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:03:55] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:02] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:10] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:16] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:23] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:30] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:37] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:44] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:49] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:04:56] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:03] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:09] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:16] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:22] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:29] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:37] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:44] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:49] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:05:56] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:03] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:13] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:20] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:27] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:33] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:40] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:47] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:06:53] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:00] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:07] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:14] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:21] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:28] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:35] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:42] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:48] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:07:54] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:08:01] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:08:09] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:08:50] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:08:52] [Server thread/INFO]: Chrischoy58 fell from a high place
+[18:09:20] [Server thread/INFO]: Chrischoy58 lost connection: Disconnected
+[18:09:20] [Server thread/INFO]: Chrischoy58 left the game
