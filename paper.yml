@@ -90,6 +90,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   loggers:
+    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   send-full-pos-for-hard-colliding-entities: true
   unsupported-settings:
@@ -237,7 +238,7 @@ world-settings:
       spawn-chance-max: 75
     baby-zombie-movement-modifier: 0.5
     max-auto-save-chunks-per-tick: 24
-    duplicate-uuid-resolver: saferegen
+    duplicate-uuid-resolver: warn
     duplicate-uuid-saferegen-delete-range: 32
     disable-creeper-lingering-effect: false
     hopper:
