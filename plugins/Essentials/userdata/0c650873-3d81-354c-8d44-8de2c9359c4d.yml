@@ -1,0 +1,46 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.14.165.104
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1649939123924
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1649940746289
+  login: 1649938201080
+money: '0'
+last-account-name: LEEJiaZhe
+lastlocation:
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: -61.33161884845198
+  y: 50.0
+  z: 94.57703992629327
+  yaw: -114.00897216796875
+  pitch: 86.24996185302734
+logoutlocation:
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: 188.6170453763989
+  y: 69.0
+  z: 539.3607031404674
+  yaw: 75.981689453125
+  pitch: 32.24993133544922
+mail:
+- legacy: false
+  read: false
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952451
+  expire: 0

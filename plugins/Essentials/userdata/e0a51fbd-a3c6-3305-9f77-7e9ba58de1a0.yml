@@ -11,28 +11,36 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1648214206715
+  lastteleport: 1649938538799
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1648214522522
-  login: 1648212894938
+  logout: 1649940745515
+  login: 1649938404984
 money: '0'
 last-account-name: Winter_Ryan
 lastlocation:
   world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
   world-name: world
-  x: -42.30000001192093
-  y: 67.0
-  z: 194.5165768710088
-  yaw: -118.86215209960938
-  pitch: 28.050065994262695
+  x: 6677.227323296307
+  y: 1539.4470787534908
+  z: 667.5546946406243
+  yaw: 53.24491882324219
+  pitch: 6.89995813369751
 logoutlocation:
-  world: 72e6184d-7a9b-4d91-a137-eac28bf01351
-  world-name: world_nether
-  x: -95.69999998807907
-  y: 49.875
-  z: -39.73666779874015
-  yaw: 70.58819580078125
-  pitch: 30.749967575073242
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: 181.79824162815538
+  y: 68.41999998688698
+  z: 540.1119705665952
+  yaw: -13.89715576171875
+  pitch: 16.04964256286621
+mail:
+- legacy: false
+  read: true
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952450
+  expire: 0

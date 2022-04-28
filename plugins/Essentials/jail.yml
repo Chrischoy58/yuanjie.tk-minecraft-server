@@ -1,0 +1,25 @@
+jails:
+  winter_ryan:
+    world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+    world-name: world
+    x: -60.30000001192093
+    y: 39.0
+    z: 90.62400678226881
+    yaw: 133.20098876953125
+    pitch: 83.9999771118164
+  jail:
+    world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+    world-name: world
+    x: -51.69999998807907
+    y: 51.0
+    z: 99.69999998807907
+    yaw: -122.54949951171875
+    pitch: 82.20001983642578
+  run:
+    world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+    world-name: world
+    x: -61.334174568120936
+    y: 50.0
+    z: 94.30000001192093
+    yaw: -0.008056640625
+    pitch: 74.69998168945312

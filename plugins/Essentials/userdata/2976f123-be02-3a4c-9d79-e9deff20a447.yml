@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.0.0.1
+ip-address: 127.201.234.188
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,37 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1648214506697
+  lastteleport: 1649941734602
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1648214563958
-  login: 1648213020501
+  logout: 1649941968384
+  login: 1649941504379
 money: '0'
 last-account-name: AnVius0623
 logoutlocation:
-  world: 72e6184d-7a9b-4d91-a137-eac28bf01351
-  world-name: world_nether
-  x: -73.44215383558031
-  y: 85.20000004768372
-  z: -24.30000001192093
-  yaw: 109.13742065429688
-  pitch: 12.599946022033691
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: -13.670436682976565
+  y: 70.0
+  z: 44.49432786513495
+  yaw: 119.10002899169922
+  pitch: 55.049991607666016
 lastlocation:
-  world: 72e6184d-7a9b-4d91-a137-eac28bf01351
-  world-name: world_nether
-  x: -50.54435571764403
-  y: 24.0
-  z: 12.660629540366443
-  yaw: 85.20014190673828
-  pitch: -6.150060653686523
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: -35.34016416056531
+  y: 74.78787098338117
+  z: 40.64293515321991
+  yaw: -135.608154296875
+  pitch: 31.94991111755371
+nickname: Dream
+mail:
+- legacy: false
+  read: true
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952539
+  expire: 0

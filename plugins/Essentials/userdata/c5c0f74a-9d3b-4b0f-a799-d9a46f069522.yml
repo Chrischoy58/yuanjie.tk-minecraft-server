@@ -36,3 +36,11 @@ lastlocation:
   z: 7.34477217910445
   yaw: -5.257843017578125
   pitch: -3.6001124382019043
+mail:
+- legacy: false
+  read: false
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952448
+  expire: 0

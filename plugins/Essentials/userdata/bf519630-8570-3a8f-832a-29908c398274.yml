@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.179.240.165
+ip-address: 127.2.84.174
 afk: false
 socialspy: false
 npc: false
@@ -16,23 +16,31 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1647252560729
-  login: 1647252088027
+  logout: 1649942689846
+  login: 1649939154684
 money: '0'
 last-account-name: Chrischoy58
 logoutlocation:
   world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
   world-name: world
   x: -30.5
-  y: 63.70336623118402
+  y: 63.0
   z: 128.5
   yaw: 0.0
   pitch: 0.0
 lastlocation:
   world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
   world-name: world
-  x: 10.5
-  y: 73.92159999847412
-  z: 43.5
-  yaw: -157.35057067871094
-  pitch: 1.6500320434570312
+  x: -39.301120189843665
+  y: 68.0
+  z: 29.155567518666448
+  yaw: -90.74887084960938
+  pitch: 21.811174392700195
+mail:
+- legacy: false
+  read: false
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952302
+  expire: 0

@@ -28,3 +28,11 @@ logoutlocation:
   z: -0.5
   yaw: 0.0
   pitch: 0.0
+mail:
+- legacy: false
+  read: false
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952141
+  expire: 0
