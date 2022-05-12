@@ -1,0 +1,1517 @@
+2022-04-28T12:02:46.119826Z  INFO agent: Starting UI
+2022-04-28T12:02:47.235210Z  INFO agent::application: agent config is prepared, checking for tunnels
+2022-04-28T12:02:48.460362Z  INFO agent::application: program registered details=AgentRegistered { account_id: 3718, session_id: 582, session_timestamp: 1651147364363, signature: [85, 144, 80, 92, 9, 10, 93, 146, 144, 145, 74, 227, 227, 199, 171, 56, 148, 183, 25, 120, 228, 127, 240, 56, 87, 158, 190, 236, 62, 129, 251, 231] }
+2022-04-28T12:02:48.548584Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:02:49.545518Z  INFO agent::tunnel_client: setup udp channel details=SetupUdpChannelDetails { tunnel_addr: 147.185.221.2:5512, token: [0, 0, 0, 0, 0, 0, 14, 134, 0, 0, 0, 0, 0, 0, 2, 70, 98, 106, 130, 101, 26, 170, 111, 121, 82, 29, 251, 242, 60, 98, 174, 220, 79, 1, 2, 146, 76, 181, 18, 197, 104, 94, 123, 227, 240, 171, 123, 139, 35, 253, 103, 112, 208, 31, 230, 131, 13, 220, 231, 129] }
+2022-04-28T12:02:49.561773Z  INFO agent::application: got UDP establish response
+2022-04-28T12:02:50.633617Z  WARN tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::lan_address: Failed to establish connection using special lan 127.188.50.227 for flow (14.192.215.51:4337, 127.0.0.1:25565) Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }
+2022-04-28T12:02:52.677805Z ERROR tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::lan_address: Failed to establish connection for flow (14.192.215.51:4337, 127.0.0.1:25565) Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }. Is your server running?
+2022-04-28T12:02:52.678170Z ERROR tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }
+2022-04-28T12:02:52.678740Z ERROR tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: failed to connect to local service error=Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }
+2022-04-28T12:02:54.574439Z  INFO agent::application: got UDP establish response
+2022-04-28T12:02:59.578342Z  INFO agent::application: got UDP establish response
+2022-04-28T12:02:59.812082Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:03:04.585046Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:09.599667Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:10.052554Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:03:14.605189Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:19.631931Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:20.289984Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:03:24.642556Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:29.649959Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:30.537174Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:03:34.659090Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:39.666731Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:40.776791Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:03:44.683644Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:49.690797Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:50.427165Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:03:50.525067Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:03:51.452529Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:03:54.698610Z  INFO agent::application: got UDP establish response
+2022-04-28T12:03:59.461596Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:03:59.461596Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:03:59.461601Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:03:59.514509Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:03:59.514519Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:03:59.514513Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:03:59.710450Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:03.035232Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:04:04.717159Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:09.730165Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:13.282223Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:04:14.746626Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:19.768162Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:23.576445Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:04:24.760951Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:29.766568Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:29.767405Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:29.769837Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:29.797675Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:29.798690Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:29.813541Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:29.860584Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:29.900346Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:29.905975Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 1, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:29.906035Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:29.996263Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:30.374961Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:30.484670Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:30.818841Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:31.282675Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:31.392302Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:31.406940Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:31.407310Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:31.420072Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:31.425678Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:33.914879Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:04:34.780920Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:39.847718Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:44.276911Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:04:44.729245Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:44.846449Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:45.075899Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:49.220937Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:49.222071Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:49.223760Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:49.269491Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:49.280988Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:49.285861Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 1, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:49.420461Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:49.464261Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:49.464684Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:49.514921Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:49.853383Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:49.923772Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:49.970428Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:04:54.858277Z  INFO agent::application: got UDP establish response
+2022-04-28T12:04:55.512348Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:04:55.557804Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 1, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:04:59.872529Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:00.381657Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:05:00.427357Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 1, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:05:04.893977Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:07.236311Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:05:09.882601Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:14.890319Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:17.668550Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:05:19.896770Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:24.991013Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:28.111286Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:05:30.021233Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:35.017641Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:38.612767Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:05:40.037329Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:45.047441Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:49.067583Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:05:50.049557Z  INFO agent::application: got UDP establish response
+2022-04-28T12:05:55.049421Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:00.064170Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:05.087939Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:10.086392Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:11.323554Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:06:15.095693Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:20.095171Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:21.575335Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:06:25.226915Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:30.230456Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:31.828808Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:06:35.239383Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:40.291945Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:42.067519Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:06:45.287442Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:50.295209Z  INFO agent::application: got UDP establish response
+2022-04-28T12:06:52.303637Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:06:55.304006Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:00.318693Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:05.308103Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:10.325286Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:14.546086Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:07:15.319697Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:20.327943Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:24.781272Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:07:25.328188Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:30.337064Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:35.032385Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:07:35.344119Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:40.355174Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:45.268840Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:07:45.363023Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:50.350884Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:55.345928Z  INFO agent::application: got UDP establish response
+2022-04-28T12:07:55.500435Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:08:00.353722Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:05.353739Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:10.362574Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:15.370850Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:17.739110Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:08:20.367473Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:25.408663Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:27.988055Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:08:30.386171Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:35.391655Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:38.221717Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:08:40.410410Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:45.439751Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:48.491511Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:08:50.456423Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:55.460442Z  INFO agent::application: got UDP establish response
+2022-04-28T12:08:58.738757Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:09:00.461381Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:05.474922Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:10.477531Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:15.479908Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:20.487974Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:21.361419Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:09:25.488313Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:30.497936Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:31.655980Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:09:35.504298Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:40.505464Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:42.023118Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:09:45.507754Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:50.516627Z  INFO agent::application: got UDP establish response
+2022-04-28T12:09:52.341861Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:09:55.518949Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:00.572411Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:02.592822Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:10:05.759174Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:10.785319Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:15.778959Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:20.793565Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:24.831675Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:10:25.790154Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:30.787165Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:35.072345Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:10:35.794711Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:40.814796Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:45.334761Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:10:45.807875Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:50.825925Z  INFO agent::application: got UDP establish response
+2022-04-28T12:10:55.683956Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:10:55.825426Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:00.827914Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:05.839147Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:05.918790Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:11:10.839405Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:15.845999Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:20.850227Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:25.851391Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:28.256191Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:11:30.868980Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:35.874820Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:38.520346Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:11:40.881116Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:45.884386Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:48.768803Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:11:50.887321Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:55.889091Z  INFO agent::application: got UDP establish response
+2022-04-28T12:11:59.010044Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:12:00.893369Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:05.896322Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:09.241003Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:12:10.899918Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:15.932620Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:20.902386Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:25.913972Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:30.919522Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:31.443001Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:12:35.925092Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:40.927233Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:41.703820Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:12:45.932859Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:50.939696Z  INFO agent::application: got UDP establish response
+2022-04-28T12:12:51.934452Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:12:55.950357Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:00.943893Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:02.226238Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:13:05.949960Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:10.955123Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:12.619527Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:13:15.967842Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:20.987608Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:25.985213Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:30.986836Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:35.228760Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:13:35.989282Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:40.993916Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:45.713362Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:13:45.997074Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:51.005654Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:56.014360Z  INFO agent::application: got UDP establish response
+2022-04-28T12:13:56.038942Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:14:01.031080Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:06.033272Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:06.322274Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:14:11.072109Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:16.074364Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:16.577284Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:14:21.090877Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:26.093952Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:31.102565Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:36.098991Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:38.978341Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:14:41.106829Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:46.125579Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:49.235288Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:14:51.138648Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:56.135640Z  INFO agent::application: got UDP establish response
+2022-04-28T12:14:59.475349Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:15:01.132368Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:06.136551Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:09.788159Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:15:11.144450Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:16.145623Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:20.033235Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:15:21.153595Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:26.152272Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:31.155800Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:36.166739Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:41.174615Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:42.459034Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:15:46.177566Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:51.183554Z  INFO agent::application: got UDP establish response
+2022-04-28T12:15:52.693261Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:15:56.190363Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:01.195264Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:02.940290Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:16:06.204228Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:11.217898Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:13.199754Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:16:16.229096Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:21.227493Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:23.432213Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:16:26.257341Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:31.258131Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:36.262673Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:41.265819Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:45.729293Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:16:46.280928Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:51.273874Z  INFO agent::application: got UDP establish response
+2022-04-28T12:16:55.970901Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:16:56.278137Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:01.287206Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:06.216663Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:17:06.284266Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:11.291501Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:16.292690Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:16.459523Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:17:21.310877Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:26.297183Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:26.693120Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:17:31.300007Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:36.301048Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:41.302702Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:46.314023Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:49.042869Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:17:51.322700Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:56.326694Z  INFO agent::application: got UDP establish response
+2022-04-28T12:17:59.284861Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:18:01.350545Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:06.344899Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:09.539311Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:18:11.352266Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:16.351544Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:19.818685Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:18:21.367782Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:26.379925Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:30.258624Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:18:31.386474Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:36.395961Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:41.408991Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:46.411691Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:51.418761Z  INFO agent::application: got UDP establish response
+2022-04-28T12:18:52.694637Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:18:56.424265Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:01.427503Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:03.018658Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:19:06.431923Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:11.432063Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:13.251574Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:19:16.437276Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:21.437246Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:23.528942Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:19:26.456126Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:31.460415Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:33.776434Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:19:36.461745Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:41.468078Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:46.468790Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:51.470057Z  INFO agent::application: got UDP establish response
+2022-04-28T12:19:56.047911Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:19:56.478551Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:01.485862Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:06.281706Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:20:06.487411Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:11.491385Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:16.499081Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:16.516912Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:20:21.502443Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:26.507781Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:26.750416Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:20:31.514392Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:36.530259Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:36.994983Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:20:41.523403Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:46.530783Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:51.538838Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:56.551125Z  INFO agent::application: got UDP establish response
+2022-04-28T12:20:59.320865Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:21:01.557516Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:06.566942Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:09.554107Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:21:11.571746Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:16.572369Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:19.791777Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:21:21.584993Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:26.579709Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:30.025911Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:21:31.577728Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:36.592552Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:40.267537Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:21:41.602950Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:46.603388Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:51.606061Z  INFO agent::application: got UDP establish response
+2022-04-28T12:21:56.611927Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:01.631591Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:02.534910Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:22:06.634543Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:11.622840Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:12.768752Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:22:16.628908Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:21.631345Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:23.002479Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:22:26.655670Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:31.641591Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:33.238899Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:22:36.655232Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:41.666804Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:43.472766Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:22:46.671680Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:51.676498Z  INFO agent::application: got UDP establish response
+2022-04-28T12:22:56.678206Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:01.681268Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:05.725377Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:23:06.680036Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:11.685757Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:15.956951Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:23:16.689774Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:21.696252Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:26.188698Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:23:26.710703Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:31.714891Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:36.655689Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:23:36.715329Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:41.730603Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:46.733252Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:46.886233Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:23:51.734144Z  INFO agent::application: got UDP establish response
+2022-04-28T12:23:56.736479Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:01.737776Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:06.740727Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:09.126638Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:24:11.744459Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:16.747393Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:19.363209Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:24:21.776049Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:26.779495Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:29.595183Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:24:31.780238Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:36.878901Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:39.849352Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:24:41.789605Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:46.801573Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:50.090820Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:24:51.797141Z  INFO agent::application: got UDP establish response
+2022-04-28T12:24:56.803156Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:01.819069Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:06.821632Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:11.835463Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:12.476400Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:25:16.833561Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:21.833982Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:22.739454Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:25:26.837981Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:31.842098Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:32.979676Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:25:36.848890Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:41.852127Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:43.226473Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:25:46.858989Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:51.868303Z  INFO agent::application: got UDP establish response
+2022-04-28T12:25:53.472677Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:25:56.876726Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:01.881261Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:06.900390Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:11.899485Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:15.743591Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:26:16.909363Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:21.911187Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:25.981801Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:26:26.915974Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:31.927367Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:36.219166Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:26:36.925818Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:41.929939Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:46.456242Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:26:46.933145Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:51.938520Z  INFO agent::application: got UDP establish response
+2022-04-28T12:26:56.836532Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:26:56.936542Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:01.935788Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:06.950400Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:11.940122Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:16.954861Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:19.306362Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:27:21.972380Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:26.989469Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:29.546048Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:27:31.982120Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:36.999357Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:39.782555Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:27:41.993561Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:46.997515Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:50.025038Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:27:52.001225Z  INFO agent::application: got UDP establish response
+2022-04-28T12:27:57.019844Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:00.256474Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:28:02.018351Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:07.019455Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:12.031936Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:17.025968Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:22.025869Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:22.573208Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:28:27.030006Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:32.032733Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:32.812296Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:28:37.035655Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:42.041875Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:43.043932Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:28:47.045519Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:52.050241Z  INFO agent::application: got UDP establish response
+2022-04-28T12:28:53.285269Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:28:57.058575Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:02.071621Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:03.746928Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:29:07.069479Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:12.076848Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:17.080743Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:22.077743Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:26.062941Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:29:27.080041Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:32.090182Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:36.300377Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:29:37.104804Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:42.110029Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:46.544290Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:29:47.125944Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:52.128920Z  INFO agent::application: got UDP establish response
+2022-04-28T12:29:56.788602Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:29:57.129068Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:02.133129Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:07.023961Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:30:07.142370Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:12.146020Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:17.153467Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:22.169287Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:27.176931Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:29.444627Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:30:32.176784Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:37.190540Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:39.684018Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:30:42.190792Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:47.207099Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:49.922392Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:30:52.222062Z  INFO agent::application: got UDP establish response
+2022-04-28T12:30:57.220136Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:00.158157Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:31:02.223948Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:07.238709Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:10.572951Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:31:12.239870Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:17.250997Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:22.264628Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:27.274607Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:32.278444Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:33.245197Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:31:37.285757Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:42.286975Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:43.505550Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:31:47.291726Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:52.295199Z  INFO agent::application: got UDP establish response
+2022-04-28T12:31:53.737010Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:31:57.298392Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:02.307250Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:03.987032Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:32:07.315570Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:12.319021Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:14.231782Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:32:17.317372Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:22.326709Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:27.333328Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:32.343487Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:36.583144Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:32:37.342909Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:42.344528Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:46.831665Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:32:47.359744Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:52.362207Z  INFO agent::application: got UDP establish response
+2022-04-28T12:32:57.073054Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:32:57.364900Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:02.371467Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:07.303102Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:33:07.382696Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:12.386182Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:17.386890Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:17.547540Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:33:22.388052Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:27.388776Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:32.402079Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:37.414482Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:39.792570Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:33:42.406817Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:47.412410Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:50.049263Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:33:52.418854Z  INFO agent::application: got UDP establish response
+2022-04-28T12:33:57.423094Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:00.279165Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:34:02.425771Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:07.431554Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:10.513195Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:34:12.435943Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:17.434295Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:20.744488Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:34:22.436963Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:27.448142Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:32.450566Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:37.450163Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:42.469837Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:43.021571Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:34:47.468190Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:52.486247Z  INFO agent::application: got UDP establish response
+2022-04-28T12:34:53.255028Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:34:57.484799Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:02.483396Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:03.498839Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:35:07.487170Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:12.496143Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:13.739009Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:35:17.486317Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:22.497741Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:23.984639Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:35:27.502480Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:32.504873Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:37.507035Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:42.515034Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:46.342864Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:35:47.543804Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:52.530593Z  INFO agent::application: got UDP establish response
+2022-04-28T12:35:56.592635Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:35:57.535716Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:02.543142Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:06.849897Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:36:07.550437Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:12.550301Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:17.083411Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:36:17.557554Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:22.565697Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:27.327627Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:36:27.570521Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:32.585355Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:37.587743Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:42.590886Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:47.592098Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:49.657424Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:36:52.604253Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:57.616949Z  INFO agent::application: got UDP establish response
+2022-04-28T12:36:59.889464Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:37:02.621879Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:07.624007Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:10.137792Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:37:12.636097Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:17.642519Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:20.377337Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:37:22.642617Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:27.656698Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:30.614167Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:37:32.668518Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:37.667515Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:42.675133Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:47.687087Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:52.689869Z  INFO agent::application: got UDP establish response
+2022-04-28T12:37:52.984916Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:37:57.693960Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:02.695224Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:03.231851Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:38:07.701111Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:12.707934Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:13.492638Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:38:17.714563Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:22.730621Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:23.728556Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:38:27.739034Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:32.754380Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:33.961121Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:38:37.749440Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:42.741984Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:47.753815Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:52.758947Z  INFO agent::application: got UDP establish response
+2022-04-28T12:38:56.233384Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:38:57.764076Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:02.838599Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:06.465997Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:39:07.827495Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:12.832850Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:16.709345Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:39:17.836418Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:22.842836Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:26.943296Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:39:27.850631Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:32.855492Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:37.181324Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:39:37.855552Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:42.875396Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:47.874050Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:52.874314Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:57.885445Z  INFO agent::application: got UDP establish response
+2022-04-28T12:39:59.495144Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:40:02.892185Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:07.900449Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:09.737145Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:40:12.912097Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:17.933804Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:19.982113Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:40:22.932177Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:27.927106Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:30.234030Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:40:32.929260Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:37.940714Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:40.487254Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:40:42.936715Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:47.938584Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:52.943392Z  INFO agent::application: got UDP establish response
+2022-04-28T12:40:57.956873Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:02.778182Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:41:02.955872Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:07.942946Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:12.955274Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:13.030113Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:41:17.971213Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:22.984551Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:23.288147Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:41:27.986731Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:32.993405Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:33.525550Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:41:37.993821Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:43.002072Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:43.760981Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:41:48.008944Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:53.023122Z  INFO agent::application: got UDP establish response
+2022-04-28T12:41:58.011435Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:03.027157Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:06.055482Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:42:08.042023Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:13.045036Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:16.306999Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:42:18.045429Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:23.048761Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:26.550399Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:42:28.049827Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:33.055952Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:36.781455Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:42:38.068647Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:43.082407Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:47.014858Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:42:48.089411Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:53.095954Z  INFO agent::application: got UDP establish response
+2022-04-28T12:42:58.090862Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:03.103396Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:08.125604Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:09.512566Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:43:13.114464Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:18.127763Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:19.894157Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:43:23.129449Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:28.129656Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:30.732937Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:43:33.129020Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:38.134816Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:40.980737Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:43:43.137974Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:48.143555Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:51.229027Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:43:53.147443Z  INFO agent::application: got UDP establish response
+2022-04-28T12:43:58.151116Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:03.148718Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:08.159642Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:13.152697Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:14.568389Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:44:18.159190Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:23.167856Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:24.915806Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:44:28.175283Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:33.187658Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:35.156672Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:44:38.191701Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:43.189698Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:45.390608Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:44:48.185773Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:53.193807Z  INFO agent::application: got UDP establish response
+2022-04-28T12:44:55.630564Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:44:58.198730Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:03.202101Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:08.229486Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:13.220327Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:18.175924Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:45:18.235520Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:23.241395Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:28.243417Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:28.689258Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:45:33.244416Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:38.250450Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:39.054562Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:45:43.268833Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:48.274276Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:49.364787Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:45:53.273583Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:58.278659Z  INFO agent::application: got UDP establish response
+2022-04-28T12:45:59.672272Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:46:03.280406Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:08.287317Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:13.295553Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:18.296998Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:22.147507Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:46:23.312642Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:28.318717Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:32.407770Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:46:33.326588Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:38.333390Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:42.652200Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:46:43.336337Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:48.337601Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:52.903350Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:46:53.344732Z  INFO agent::application: got UDP establish response
+2022-04-28T12:46:58.388386Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:03.184520Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:47:03.379426Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:08.380272Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:13.384578Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:18.394686Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:23.400472Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:26.249847Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:47:28.395700Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:33.750735Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:36.795747Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:47:38.787804Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:43.809355Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:47.292113Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:47:48.828993Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:53.821294Z  INFO agent::application: got UDP establish response
+2022-04-28T12:47:57.902638Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:47:59.077088Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:04.082235Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:08.168590Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:48:09.106569Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:14.093952Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:19.116739Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:24.115514Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:29.142327Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:31.760986Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:48:34.125475Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:39.130424Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:42.014988Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:48:44.155104Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:49.157941Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:52.256605Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:48:54.153969Z  INFO agent::application: got UDP establish response
+2022-04-28T12:48:59.166672Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:02.596401Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:49:04.173031Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:09.185097Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:12.831018Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:49:14.189956Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:19.203265Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:24.213177Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:29.227484Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:34.229358Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:36.373001Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:49:39.231863Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:44.257013Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:46.710703Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:49:49.264712Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:54.256044Z  INFO agent::application: got UDP establish response
+2022-04-28T12:49:56.956433Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:49:59.265383Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:03.836004Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:04.252720Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:04.266778Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:07.211527Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:50:09.283206Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:10.970134Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:10.970140Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:10.971453Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:11.031112Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:11.037567Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:11.081716Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:13.730893Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:13.731290Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:13.731427Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:14.285063Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:14.565407Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:14.571178Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:15.753002Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:15.846230Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:16.390240Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:17.472328Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:50:19.303247Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:19.525162Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:19.651105Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:20.353989Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:20.355626Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:20.357046Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:20.404932Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:20.406525Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:20.407267Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:21.959047Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:21.959719Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:21.961889Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:21.996589Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:21.997372Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:22.001598Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:24.320936Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:28.257026Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:28.316677Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:29.332967Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:31.036521Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:31.116092Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:34.400786Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:35.636314Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:35.720606Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:39.406834Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:39.617558Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:39.661611Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 1, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:40.570792Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:50:44.412849Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:44.653168Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:44.759443Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:50:45.627496Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:50:45.660344Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:50:49.434125Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:50.809646Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:50:54.446201Z  INFO agent::application: got UDP establish response
+2022-04-28T12:50:59.460949Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:01.056994Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:51:04.485107Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:09.473744Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:11.305531Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:51:14.484875Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:14.695169Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:51:15.781874Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:51:19.547877Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:21.549331Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:51:24.147543Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:51:24.549388Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:29.558420Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:29.945733Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:51:30.035678Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:51:30.724937Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:51:31.467872Z ERROR tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: failed to write data error=Os { code: 10053, kind: ConnectionAborted, message: "An established connection was aborted by the software in your host machine." }
+2022-04-28T12:51:32.013816Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:51:34.573494Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:39.584543Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:39.837630Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:51:39.910550Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}: agent::tcp_client: connection setup stats=Stats { running: 0, from_tunnel: 0, to_tunnel: 0 }
+2022-04-28T12:51:44.583416Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:44.957211Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:51:49.799434Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:54.803998Z  INFO agent::application: got UDP establish response
+2022-04-28T12:51:55.209464Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:51:59.815892Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:04.825105Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:05.447239Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:52:06.034946Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: new client
+2022-04-28T12:52:07.632610Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:tunnel to local: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:52:07.633656Z  INFO tcp client{tunnel_address=147.185.221.2:7176 local_address=127.0.0.1:25565}:local to tunnel: agent::tcp_client: pipe ended due to EOF
+2022-04-28T12:52:08.351476Z  WARN tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::lan_address: Failed to establish connection using special lan 127.60.3.51 for flow (175.141.64.233:3570, 127.0.0.1:25565) Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }
+2022-04-28T12:52:09.829202Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:10.843218Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:3570, 127.0.0.1:25565) Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }. Is your server running?
+2022-04-28T12:52:10.843506Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }
+2022-04-28T12:52:10.843908Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=127.0.0.1:25565}: agent::tcp_client: failed to connect to local service error=Os { code: 10061, kind: ConnectionRefused, message: "No connection could be made because the target machine actively refused it." }
+2022-04-28T12:52:14.831737Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:15.698389Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:52:19.836215Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:24.844617Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:25.936727Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:52:29.851480Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:34.863417Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:39.876615Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:44.879057Z  INFO agent::application: got UDP establish response
+2022-04-28T12:52:48.986846Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T12:52:49.885561Z  INFO agent::application: got UDP establish response
+2022-04-28T13:17:27.543553Z  INFO agent: Starting UI
+2022-04-28T13:17:28.305901Z  INFO agent::application: agent config is prepared, checking for tunnels
+2022-04-28T13:17:29.913608Z  INFO agent::application: program registered details=AgentRegistered { account_id: 3718, session_id: 200, session_timestamp: 1651151845665, signature: [238, 96, 101, 254, 88, 74, 129, 182, 151, 162, 35, 106, 31, 34, 62, 188, 246, 216, 93, 211, 15, 233, 237, 78, 135, 229, 41, 85, 138, 172, 139, 11] }
+2022-04-28T13:17:31.180060Z  INFO agent::tunnel_client: setup udp channel details=SetupUdpChannelDetails { tunnel_addr: 147.185.221.2:5512, token: [0, 0, 0, 0, 0, 0, 14, 134, 0, 0, 0, 0, 0, 0, 0, 200, 98, 106, 147, 231, 173, 15, 126, 174, 39, 46, 85, 77, 75, 181, 6, 211, 164, 61, 182, 165, 254, 40, 30, 27, 253, 209, 6, 80, 121, 53, 238, 167, 33, 244, 250, 248, 208, 31, 230, 131, 13, 220, 231, 129] }
+2022-04-28T13:17:31.223144Z  INFO agent::application: got UDP establish response
+2022-04-28T13:17:36.213667Z  INFO agent::application: got UDP establish response
+2022-04-28T13:17:41.238404Z  INFO agent::application: got UDP establish response
+2022-04-28T13:17:41.455864Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:17:46.288018Z  INFO agent::application: got UDP establish response
+2022-04-28T13:17:51.384708Z  INFO agent::application: got UDP establish response
+2022-04-28T13:17:51.715080Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:17:56.396395Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:01.441827Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:02.004763Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:18:06.423189Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:11.445040Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:12.270314Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:18:16.472655Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:21.480324Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:22.522032Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:18:25.076476Z  INFO agent::agent_config: updating config
+2022-04-28T13:18:26.478380Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:31.501762Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:36.504024Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:41.518332Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:45.973352Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:18:46.545092Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:51.537659Z  INFO agent::application: got UDP establish response
+2022-04-28T13:18:56.240307Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:18:56.538854Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:01.584469Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:06.482637Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:19:06.587376Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:11.593135Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:16.603910Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:16.728068Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:19:21.613810Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:26.631203Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:26.962337Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:19:31.634250Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:36.640719Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:41.644100Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:46.654797Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:49.885706Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:19:51.675821Z  INFO agent::application: got UDP establish response
+2022-04-28T13:19:56.666349Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:00.139469Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:20:01.669221Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:06.684937Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:10.384035Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:20:11.690467Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:16.704815Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:20.632700Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:20:21.714079Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:26.714451Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:30.875890Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:20:31.730458Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:36.732784Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:41.733898Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:46.746809Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:51.750564Z  INFO agent::application: got UDP establish response
+2022-04-28T13:20:54.317785Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:20:56.759755Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:01.769467Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:04.565381Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:21:06.775950Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:11.779077Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:14.806612Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:21:16.790288Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:21.802412Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:25.046734Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:21:26.804766Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:31.820483Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:35.322043Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:21:36.826847Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:41.832119Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:46.832551Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:51.846109Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:56.847880Z  INFO agent::application: got UDP establish response
+2022-04-28T13:21:58.183514Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:22:01.861010Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:06.876678Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:08.442309Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:22:11.891057Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:16.904463Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:18.682575Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:22:21.920679Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:26.935968Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:28.923027Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:22:31.945088Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:36.958494Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:39.172521Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:22:41.963388Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:46.977838Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:51.983649Z  INFO agent::application: got UDP establish response
+2022-04-28T13:22:56.998302Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:02.003511Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:02.191913Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:23:07.021904Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:12.031516Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:12.438177Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:23:17.039533Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:22.045482Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:22.695450Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:23:27.058592Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:32.062617Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:32.943894Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:23:37.071556Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:42.079749Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:43.187014Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:23:47.079575Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:52.086122Z  INFO agent::application: got UDP establish response
+2022-04-28T13:23:57.098715Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:02.107299Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:06.117431Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:24:07.114998Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:12.128289Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:16.357433Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:24:17.144852Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:22.158299Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:26.603211Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:24:27.164818Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:32.190329Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:36.842263Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:24:37.189756Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:42.197728Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:47.080162Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:24:47.209074Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:52.224867Z  INFO agent::application: got UDP establish response
+2022-04-28T13:24:57.226168Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:02.238652Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:07.251609Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:10.043579Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:25:12.257500Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:17.272099Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:20.285605Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:25:22.280693Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:27.285948Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:30.599213Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:25:32.291200Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:37.292940Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:40.848355Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:25:42.299626Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:47.306375Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:51.090453Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:25:52.322065Z  INFO agent::application: got UDP establish response
+2022-04-28T13:25:57.327773Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:02.332628Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:07.344955Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:12.357637Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:14.163149Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:26:17.361879Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:22.377432Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:24.411343Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:26:27.389588Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:32.398633Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:34.644282Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:26:37.404564Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:42.413180Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:44.888329Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:26:47.416743Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:52.439301Z  INFO agent::application: got UDP establish response
+2022-04-28T13:26:55.132441Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:26:57.441247Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:02.450439Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:07.455927Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:12.466971Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:17.470752Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:18.148596Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:27:22.488503Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:27.486107Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:28.404954Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:27:32.492678Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:37.505176Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:38.654417Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:27:42.512024Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:47.530155Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:48.910931Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:27:52.533629Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:57.542498Z  INFO agent::application: got UDP establish response
+2022-04-28T13:27:59.153524Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:28:02.549492Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:07.551164Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:12.564757Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:17.580767Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:22.283424Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:28:22.586930Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:27.589617Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:32.596530Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:33.443712Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:28:37.602524Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:42.605732Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:43.726485Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:28:47.612535Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:52.619882Z  INFO agent::application: got UDP establish response
+2022-04-28T13:28:54.112218Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:28:57.628146Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:02.636623Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:04.363115Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:29:07.640734Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:12.658070Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:17.666435Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:22.670213Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:27.686740Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:28.175664Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:29:32.690297Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:37.692180Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:38.598266Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:29:42.704953Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:47.720360Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:49.090359Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:29:52.722835Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:57.737388Z  INFO agent::application: got UDP establish response
+2022-04-28T13:29:59.387302Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:30:02.735305Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:07.740192Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:10.361886Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:30:12.753738Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:17.772183Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:22.788181Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:27.779335Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:32.797632Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:35.603212Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:30:37.802003Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:42.811462Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:46.333049Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:30:47.819279Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:52.838416Z  INFO agent::application: got UDP establish response
+2022-04-28T13:30:56.619604Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:30:57.841680Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:02.855294Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:06.852428Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:31:07.868027Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:12.874268Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:17.097257Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:31:17.887277Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:22.887799Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:27.891470Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:32.893354Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:37.900560Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:40.138537Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:31:42.911646Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:47.918011Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:50.394772Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:31:52.929072Z  INFO agent::application: got UDP establish response
+2022-04-28T13:31:57.930289Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:00.631845Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:32:02.942137Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:07.956208Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:10.876072Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:32:12.960977Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:17.976381Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:21.122343Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:32:22.985017Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:28.004972Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:33.008007Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:38.008847Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:43.022112Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:45.760192Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:32:48.037925Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:53.046794Z  INFO agent::application: got UDP establish response
+2022-04-28T13:32:56.251568Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:32:58.055004Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:03.068602Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:06.726067Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:33:08.073868Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:13.072691Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:17.028218Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:33:18.079466Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:23.093839Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:27.270430Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:33:28.099587Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:33.121521Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:38.137250Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:43.141870Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:48.137492Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:50.501716Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:33:53.154580Z  INFO agent::application: got UDP establish response
+2022-04-28T13:33:58.163193Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:00.739697Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:34:03.179875Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:08.182138Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:11.008964Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:34:13.212536Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:18.220234Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:21.250518Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:34:23.219896Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:28.225519Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:31.492595Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:34:33.231746Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:38.235193Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:43.242055Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:48.254470Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:53.268242Z  INFO agent::application: got UDP establish response
+2022-04-28T13:34:54.760518Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:34:58.272118Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:03.286739Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:05.009588Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:35:08.296896Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:13.299668Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:15.263564Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:35:18.304123Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:23.312191Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:25.513580Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:35:28.316834Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:33.329465Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:35.777648Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:35:38.345173Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:43.349043Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:48.358804Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:53.366157Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:58.370845Z  INFO agent::application: got UDP establish response
+2022-04-28T13:35:59.274558Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:36:03.383742Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:08.383242Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:09.524734Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:36:13.398829Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:18.407529Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:19.773592Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:36:23.420894Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:28.424792Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:30.019286Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:36:33.435863Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:38.447212Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:40.261080Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:36:43.454247Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:48.461152Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:53.473541Z  INFO agent::application: got UDP establish response
+2022-04-28T13:36:58.486762Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:03.174898Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:37:03.503788Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:08.513414Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:13.421920Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:37:13.526455Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:18.542308Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:23.551262Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:23.716157Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:37:28.560406Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:33.564201Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:33.961398Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:37:38.574162Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:43.582174Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:44.206065Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:37:48.594649Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:53.606262Z  INFO agent::application: got UDP establish response
+2022-04-28T13:37:58.616375Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:03.630009Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:07.496821Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:38:08.642017Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:13.660285Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:17.740139Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:38:18.669862Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:23.681027Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:28.217802Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:38:28.691406Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:33.695891Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:38.456312Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:38:38.699580Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:43.713588Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:48.709816Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:38:48.722781Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:53.728841Z  INFO agent::application: got UDP establish response
+2022-04-28T13:38:58.742820Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:03.755096Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:08.769821Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:12.534814Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:39:13.782135Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:18.792637Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:20.642249Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:39:20.699801Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2079, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:39:20.731189Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:20.731432Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:21.614711Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:39:21.658697Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2079, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:39:21.658768Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:21.659057Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:22.783857Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:39:23.625256Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:39:23.667277Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2079, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:39:23.667486Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:23.667670Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:23.796619Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:27.636410Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:39:27.671891Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2079, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:39:27.671934Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:27.672090Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:28.799759Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:33.027569Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:39:33.806815Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:35.640162Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:39:35.679044Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2079, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:39:35.679224Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:35.679377Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:39:38.810568Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:43.305095Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:39:43.817821Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:48.824778Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:53.544537Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:39:53.841216Z  INFO agent::application: got UDP establish response
+2022-04-28T13:39:58.843325Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:03.851832Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:08.859491Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:13.862571Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:16.913791Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:40:18.872506Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:23.879227Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:27.169240Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:40:28.893715Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:33.906763Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:37.417351Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:40:38.920641Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:39.251634Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:40:39.298332Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2121, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:40:39.298382Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:39.298517Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:40.265217Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:40:40.303533Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2121, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:40:40.303705Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:40.303846Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:42.266812Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:40:42.302644Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2121, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:40:42.302686Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:42.302824Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:43.932938Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:46.279617Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:40:46.312847Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2121, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:40:46.312892Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:46.313073Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:47.673764Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:40:48.946790Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:53.948355Z  INFO agent::application: got UDP establish response
+2022-04-28T13:40:54.281309Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:40:54.324764Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2121, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:40:54.324823Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:54.324997Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:40:57.916514Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:40:58.953721Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:03.978586Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:08.982061Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:13.987936Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:18.992658Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:21.916106Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:41:24.005588Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:29.012756Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:32.164558Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:41:34.018208Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:39.028745Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:42.450485Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:41:44.036582Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:49.051646Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:52.700928Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:41:54.053380Z  INFO agent::application: got UDP establish response
+2022-04-28T13:41:59.090821Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:02.945617Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:42:04.097916Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:09.105939Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:14.120488Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:19.123905Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:24.134929Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:25.899989Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:42:29.143389Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:34.147232Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:34.362912Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:42:34.394095Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2169, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:42:34.394388Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:34.394712Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:35.381025Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:42:35.426091Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2169, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:42:35.426134Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:35.426291Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:36.134978Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:42:37.385728Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:42:37.423831Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2169, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:42:37.423878Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:37.424012Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:39.158151Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:41.385633Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:42:41.425888Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2169, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:42:41.425931Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:41.426101Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:44.160174Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:46.375027Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:42:49.170513Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:49.392206Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:42:49.428292Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2169, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:42:49.428334Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:49.428461Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:42:54.173875Z  INFO agent::application: got UDP establish response
+2022-04-28T13:42:56.618295Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:42:59.174947Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:04.175718Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:06.863284Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:43:09.186859Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:14.189391Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:19.202630Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:24.207469Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:29.217816Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:30.146603Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:43:34.233484Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:39.243698Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:40.392511Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:43:44.251462Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:49.250319Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:50.636562Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:43:54.250840Z  INFO agent::application: got UDP establish response
+2022-04-28T13:43:59.260073Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:00.883472Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:44:04.277674Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:09.286636Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:11.148391Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:44:14.300594Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:19.305619Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:24.321248Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:29.330156Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:34.081269Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:44:34.341402Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:39.343650Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:44.335362Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:44:44.344739Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:49.360995Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:54.369971Z  INFO agent::application: got UDP establish response
+2022-04-28T13:44:54.593458Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:44:59.380285Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:04.384128Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:04.844236Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:45:09.389716Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:13.376973Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:45:13.419015Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2265, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:45:13.419061Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:13.419214Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:14.374801Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:45:14.392204Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:14.417865Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2265, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:45:14.417918Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:14.418107Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:15.082292Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:45:16.383469Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:45:16.417600Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2265, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:45:16.417643Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:16.417773Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:19.408936Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:20.396046Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:45:20.453613Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2265, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:45:20.453692Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:20.453884Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:24.413688Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:28.406962Z  INFO tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: new client
+2022-04-28T13:45:28.444840Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::lan_address: Failed to establish connection for flow (175.141.64.233:2265, 0.0.0.0:8080) Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }. Is your server running?
+2022-04-28T13:45:28.444886Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local server (is your server running?) error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:28.445018Z ERROR tcp client{tunnel_address=147.185.221.2:7169 local_address=0.0.0.0:8080}: agent::tcp_client: failed to connect to local service error=Os { code: 10049, kind: AddrNotAvailable, message: "The requested address is not valid in its context." }
+2022-04-28T13:45:29.424097Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:34.433423Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:39.047967Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:45:39.447772Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:44.453709Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:49.291866Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:45:49.457871Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:54.463237Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:59.476409Z  INFO agent::application: got UDP establish response
+2022-04-28T13:45:59.546018Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:46:04.488690Z  INFO agent::application: got UDP establish response
+2022-04-28T13:46:09.498032Z  INFO agent::application: got UDP establish response
+2022-04-28T13:46:09.814477Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:46:14.500902Z  INFO agent::application: got UDP establish response
+2022-04-28T13:46:19.515687Z  INFO agent::application: got UDP establish response
+2022-04-28T13:46:20.056537Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=1244
+2022-04-28T13:46:24.531344Z  INFO agent::application: got UDP establish response

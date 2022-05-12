@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1651841082627
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1651757022452
+  login: 1651841715124
+money: '0'
+last-account-name: AnVius0623
+logoutlocation:
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: 502.7003850580183
+  y: 133.12787342223186
+  z: 862.697075783201
+  yaw: -71.71372985839844
+  pitch: 79.94991302490234
+lastlocation:
+  world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
+  world-name: world
+  x: -277.4782167474075
+  y: 112.26828530401278
+  z: -293.347052538465
+  yaw: 40.048126220703125
+  pitch: 36.300052642822266
+nickname: Dream
+mail:
+- legacy: false
+  read: true
+  message: hi
+  sender-name: AnVius0623
+  sender-uuid: 2976f123-be02-3a4c-9d79-e9deff20a447
+  timestamp: 1648730952539
+  expire: 0

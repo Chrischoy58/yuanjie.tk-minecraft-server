@@ -1,6 +1,13 @@
-last_update = 1646361513058
+last_update = 1651151905076
 refresh_from_api = true
 secret_key = '7c77b02ad4cd4becbd681dea5e3af43f215c0859cf080e533a560381cb51b04e'
+
+[[mappings]]
+proto = 'both'
+tunnel_ip = '147.185.221.212'
+tunnel_from_port = 16385
+local_ip = '0.0.0.0'
+local_port = 8080
 
 [[mappings]]
 proto = 'udp'

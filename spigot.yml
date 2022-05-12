@@ -165,6 +165,8 @@ world-settings:
       tile: 50
       entity: 50
     end-portal-sound-radius: 0
+  worldeditregentempworld:
+    verbose: false
 config-version: 12
 stats:
   disable-saving: false
