@@ -1,75 +1,76 @@
-[19:49:27] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:49:29] [Worker-Main-2/INFO]: Loaded 7 recipes
-[19:49:31] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[19:49:31] [Server thread/INFO]: Loading properties
-[19:49:32] [Server thread/INFO]: This server is running Paper version git-Paper-252 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 2d3e8f7)
-[19:49:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:49:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:49:32] [Server thread/INFO]: Default game type: SURVIVAL
-[19:49:32] [Server thread/INFO]: Generating keypair
-[19:49:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:49:32] [Server thread/INFO]: Using default channel type
-[19:49:32] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[19:49:32] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:49:37] [Server thread/INFO]: [LobbyAPI] Loading LobbyAPI v3.7.104
-[19:49:37] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[19:49:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7a710642]
-[19:49:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4-dev+3-997fb18
-[19:49:38] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.4-dev+3-997fb18
-[19:49:38] [Server thread/INFO]: [WebConsole] Loading WebConsole v2.4
-[19:49:38] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
-[19:49:38] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
-[19:49:39] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[19:49:39] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[19:49:39] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[19:49:39] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[19:49:39] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[19:49:39] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:49:39] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[19:49:39] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[19:49:39] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[19:49:39] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.2.0
-[19:49:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:49:40] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[19:49:40] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[19:49:40] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[19:49:40] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[19:49:40] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[19:49:40] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[19:49:40] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[19:49:40] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[19:49:40] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[19:49:40] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[19:49:40] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[19:49:40] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[19:49:40] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
-[19:49:40] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
-[19:49:40] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.15
-[19:49:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.2-SNAPSHOT
-[19:49:40] [Server thread/INFO]: [dynmap] Loading dynmap v3.3.2-696
-[19:49:40] [Server thread/INFO]: [dynmap] version=git-Paper-252 (MC: 1.18.2)
-[19:49:40] [Server thread/INFO]: [dynmap] Mod Support API available
-[19:49:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:49:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[19:49:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:49:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:49:41] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[19:49:43] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
-[19:49:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:49:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:49:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:49:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:49:44] [Server thread/INFO]: Preparing level "world"
-[19:49:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:49:47] [Server thread/INFO]: Time elapsed: 527 ms
-[19:49:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:49:47] [Server thread/INFO]: Time elapsed: 167 ms
-[19:49:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:49:47] [Server thread/INFO]: Time elapsed: 147 ms
-[19:49:47] [Server thread/INFO]: [LobbyAPI] Enabling LobbyAPI v3.7.104
-[19:49:48] [Server thread/INFO]: Found a new version v1.0.52 downloading now!!
-[19:49:48] [Server thread/INFO]: [LobbyAPI]Bungee For LobbyAPI is disabled
-[19:49:48] [Server thread/ERROR]: Error occurred while enabling LobbyAPI v3.7.104 (Is it up to date?)
+[19:56:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:56:32] [Worker-Main-1/INFO]: Loaded 7 recipes
+[19:56:34] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[19:56:34] [Server thread/INFO]: Loading properties
+[19:56:34] [Server thread/INFO]: This server is running Paper version git-Paper-252 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: 2d3e8f7)
+[19:56:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:56:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:56:34] [Server thread/INFO]: Default game type: SURVIVAL
+[19:56:34] [Server thread/INFO]: Generating keypair
+[19:56:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:56:35] [Server thread/INFO]: Using default channel type
+[19:56:35] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[19:56:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:56:38] [Server thread/INFO]: [LobbyAPI] Loading LobbyAPI v3.7.104
+[19:56:38] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[19:56:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@12506b6e]
+[19:56:40] [Server thread/INFO]: [PixelPrinter] Loading PixelPrinter v1.0.46
+[19:56:40] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4-dev+3-997fb18
+[19:56:40] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.19.4-dev+3-997fb18
+[19:56:40] [Server thread/INFO]: [WebConsole] Loading WebConsole v2.4
+[19:56:40] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.2.1
+[19:56:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.2.1 is now loaded, injecting!
+[19:56:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:56:40] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:56:40] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:56:40] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:56:41] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:56:41] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:56:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:56:41] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:56:41] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[19:56:41] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.2.0
+[19:56:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[19:56:41] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[19:56:41] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[19:56:41] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[19:56:41] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[19:56:41] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[19:56:41] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[19:56:41] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[19:56:41] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[19:56:42] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[19:56:42] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[19:56:42] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[19:56:42] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[19:56:42] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.5
+[19:56:42] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[19:56:42] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.15
+[19:56:42] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.0.2-SNAPSHOT
+[19:56:42] [Server thread/INFO]: [dynmap] Loading dynmap v3.3.2-696
+[19:56:42] [Server thread/INFO]: [dynmap] version=git-Paper-252 (MC: 1.18.2)
+[19:56:42] [Server thread/INFO]: [dynmap] Mod Support API available
+[19:56:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:56:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[19:56:42] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:56:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:56:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[19:56:45] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[19:56:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:56:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:56:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:56:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:56:45] [Server thread/INFO]: Preparing level "world"
+[19:56:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:56:48] [Server thread/INFO]: Time elapsed: 718 ms
+[19:56:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:56:49] [Server thread/INFO]: Time elapsed: 175 ms
+[19:56:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:56:49] [Server thread/INFO]: Time elapsed: 169 ms
+[19:56:49] [Server thread/INFO]: [LobbyAPI] Enabling LobbyAPI v3.7.104
+[19:56:50] [Server thread/INFO]: Found a new version v1.0.52 downloading now!!
+[19:56:50] [Server thread/INFO]: [LobbyAPI]Bungee For LobbyAPI is disabled
+[19:56:50] [Server thread/ERROR]: Error occurred while enabling LobbyAPI v3.7.104 (Is it up to date?)
 java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/IOUtils
 	at me.zombie_striker.lobbyapi.utils.SpiGetUpdater.getLastUpdate(SpiGetUpdater.java:62) ~[LobbyAPI.jar:?]
 	at me.zombie_striker.lobbyapi.utils.SpiGetUpdater.checkAutoUpdate(SpiGetUpdater.java:31) ~[LobbyAPI.jar:?]
@@ -91,49 +92,50 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apa
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
 	... 15 more
-[19:49:48] [Server thread/INFO]: [LobbyAPI] Disabling LobbyAPI v3.7.104
-[19:49:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4-dev+3-997fb18
-[19:49:49] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:49:49] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:49:50] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[19:49:50] [Server thread/INFO]: [Essentials] Using locale en_MY
-[19:49:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:49:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:49:50] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:49:50] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.4-dev+3-997fb18
-[19:49:51] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[19:49:51] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[19:49:51] [Server thread/INFO]: [WebConsole] Enabling WebConsole v2.4
-[19:49:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
-[19:49:51] [WebSocketSelector-63/INFO]: [WebConsole] WebSocket Server started successfully.
-[19:49:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.2.0
-[19:49:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[19:49:51] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[19:49:51] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[19:49:55] [Server thread/INFO]: Preparing start region for dimension minecraft:manhunt
-[19:49:55] [Server thread/INFO]: Preparing spawn area: 0%
-[19:49:55] [Server thread/INFO]: Preparing spawn area: 0%
-[19:49:55] [Server thread/INFO]: Time elapsed: 653 ms
-[19:49:57] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
-[19:49:58] [Server thread/INFO]: Preparing spawn area: 0%
-[19:49:58] [Server thread/INFO]: Preparing spawn area: 0%
-[19:49:58] [Server thread/INFO]: Time elapsed: 842 ms
-[19:49:58] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[19:49:58] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[19:49:58] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
-[19:50:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.15
-[19:50:00] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
-[19:50:01] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:50:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.2-SNAPSHOT
-[19:50:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:50:02] [Server thread/INFO]: [Geyser-Spigot] 
-[19:50:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.2-SNAPSHOT (git-master-a1bb434)
-[19:50:02] [Server thread/INFO]: [Geyser-Spigot] 
-[19:50:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:50:07] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
-[19:50:07] [Server thread/INFO]: [Geyser-Spigot] Done (5.792s)! Run /geyser help for help!
-[19:50:07] [Server thread/INFO]: [dynmap] Enabling dynmap v3.3.2-696
-[19:50:08] [Server thread/ERROR]: Error occurred while enabling dynmap v3.3.2-696 (Is it up to date?)
+[19:56:50] [Server thread/INFO]: [LobbyAPI] Disabling LobbyAPI v3.7.104
+[19:56:50] [Server thread/INFO]: [PixelPrinter] Enabling PixelPrinter v1.0.46
+[19:56:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4-dev+3-997fb18
+[19:56:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:56:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:56:52] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[19:56:52] [Server thread/INFO]: [Essentials] Using locale en_MY
+[19:56:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:56:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:56:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[19:56:52] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.4-dev+3-997fb18
+[19:56:53] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[19:56:53] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[19:56:53] [Server thread/INFO]: [WebConsole] Enabling WebConsole v2.4
+[19:56:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.2.1
+[19:56:53] [WebSocketSelector-64/INFO]: [WebConsole] WebSocket Server started successfully.
+[19:56:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.2.0
+[19:56:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[19:56:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:56:53] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:56:58] [Server thread/INFO]: Preparing start region for dimension minecraft:manhunt
+[19:56:58] [Server thread/INFO]: Preparing spawn area: 0%
+[19:56:58] [Server thread/INFO]: Preparing spawn area: 3%
+[19:56:59] [Server thread/INFO]: Time elapsed: 599 ms
+[19:57:01] [Server thread/INFO]: Preparing start region for dimension minecraft:flat
+[19:57:01] [Server thread/INFO]: Preparing spawn area: 0%
+[19:57:01] [Server thread/INFO]: Preparing spawn area: 22%
+[19:57:02] [Server thread/INFO]: Time elapsed: 937 ms
+[19:57:02] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[19:57:02] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:57:02] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.5
+[19:57:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.15
+[19:57:03] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_18_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[19:57:04] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:57:04] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.0.2-SNAPSHOT
+[19:57:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:57:05] [Server thread/INFO]: [Geyser-Spigot] 
+[19:57:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.0.2-SNAPSHOT (git-master-a1bb434)
+[19:57:05] [Server thread/INFO]: [Geyser-Spigot] 
+[19:57:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:57:11] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:25565
+[19:57:11] [Server thread/INFO]: [Geyser-Spigot] Done (5.929s)! Run /geyser help for help!
+[19:57:11] [Server thread/INFO]: [dynmap] Enabling dynmap v3.3.2-696
+[19:57:11] [Server thread/ERROR]: Error occurred while enabling dynmap v3.3.2-696 (Is it up to date?)
 java.lang.NoSuchFieldError: p
 	at org.dynmap.bukkit.helper.v118.BukkitVersionHelperSpigot118.initializeBlockStates(BukkitVersionHelperSpigot118.java:144) ~[Dynmap-3.3.2-spigot.jar:?]
 	at org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:901) ~[Dynmap-3.3.2-spigot.jar:?]
@@ -148,8 +150,8 @@ java.lang.NoSuchFieldError: p
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-252]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-252]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:50:08] [Server thread/INFO]: [dynmap] Disabling dynmap v3.3.2-696
-[19:50:08] [Server thread/ERROR]: Error occurred while disabling dynmap v3.3.2-696 (Is it up to date?)
+[19:57:11] [Server thread/INFO]: [dynmap] Disabling dynmap v3.3.2-696
+[19:57:11] [Server thread/ERROR]: Error occurred while disabling dynmap v3.3.2-696 (Is it up to date?)
 java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
 	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1062) ~[Dynmap-3.3.2-spigot.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
@@ -165,32 +167,32 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.18.2.jar:git-Paper-252]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315) ~[paper-1.18.2.jar:git-Paper-252]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[19:50:08] [Server thread/INFO]: Running delayed init tasks
-[19:50:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
-[19:50:08] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] §6Fetching version information...
-[19:50:08] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[19:50:08] [Server thread/INFO]: Done (36.759s)! For help, type "help"
-[19:50:08] [Server thread/INFO]: Timings Reset
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.1.15[0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[19:50:08] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[19:50:09] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/20, uuid='972841ae-cd89-4ce3-8254-407060054bc0', l='ServerLevel[world]', x=-187.52, y=68.00, z=164.52, cpos=[-12, 10], tl=269211, v=false]
-[19:50:09] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] §4You're §c7 §4EssentialsX dev build(s) out of date!
-[19:50:09] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] §4Download it here:§c https://essentialsx.net/downloads.html
-[19:50:09] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
-[19:50:09] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.0.5, which is 2 versions outdated.
-[19:50:09] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.0.7 from GitHub at the link below:
-[19:50:09] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.0.7
-[19:50:09] [Server thread/WARN]: UUID of added entity already exists: EntityCow['Cow'/67, uuid='12c62420-2389-413e-9516-6f9559de74bd', l='ServerLevel[world]', x=-102.53, y=64.00, z=148.14, cpos=[-7, 9], tl=359415, v=false]
-[19:50:09] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/69, uuid='2d26edf8-2e37-45ec-b27a-6ffa50fb112b', l='ServerLevel[world]', x=-102.87, y=64.00, z=173.50, cpos=[-7, 10], tl=547165, v=false]
-[19:50:09] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/113, uuid='c964eadb-93fa-407c-9e9a-fed1755df536', l='ServerLevel[world]', x=-11.73, y=66.00, z=-16.49, cpos=[-1, -2], tl=652392, v=false]
-[19:50:09] [Server thread/WARN]: UUID of added entity already exists: EntityCat['Cat'/115, uuid='4e13f7ef-46b9-4b18-881f-a21b3e408f3b', l='ServerLevel[world]', x=-15.64, y=68.88, z=26.54, cpos=[-1, 1], tl=609724, v=false]
-[19:50:10] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/138, uuid='972841ae-cd89-4ce3-8254-407060054bc0', l='ServerLevel[world]', x=-197.77, y=68.00, z=168.44, cpos=[-13, 10], tl=275023, v=false]
-[19:50:10] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/150, uuid='2d26edf8-2e37-45ec-b27a-6ffa50fb112b', l='ServerLevel[world]', x=-120.75, y=64.00, z=196.75, cpos=[-8, 12], tl=511167, v=false]
+[19:57:11] [Server thread/INFO]: Running delayed init tasks
+[19:57:11] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18.2 (758)
+[19:57:11] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] §6Fetching version information...
+[19:57:11] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:57:11] [Server thread/INFO]: Done (37.474s)! For help, type "help"
+[19:57:11] [Server thread/INFO]: Timings Reset
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.1.15[0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[19:57:12] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[19:57:12] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] §4You're §c7 §4EssentialsX dev build(s) out of date!
+[19:57:12] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] §4Download it here:§c https://essentialsx.net/downloads.html
+[19:57:12] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
+[19:57:12] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.0.5, which is 2 versions outdated.
+[19:57:12] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.0.7 from GitHub at the link below:
+[19:57:12] [Craft Scheduler Thread - 7 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.0.7
+[19:59:15] [User Authenticator #1/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
+[19:59:16] [Server thread/INFO]: Winter_Ryan joined the game
+[19:59:16] [Server thread/INFO]: Winter_Ryan[/60.53.34.146:6289] logged in with entity id 325 at ([manhunt]-228.0691032567, 69.0, -31.594525018507177)
+[19:59:19] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/423, uuid='b0600c8a-2690-447f-8e62-0beeb1a50f15', l='ServerLevel[manhunt]', x=-274.90, y=98.00, z=-134.87, cpos=[-18, -9], tl=5332, v=false]
+[19:59:43] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/600, uuid='2fdc6eb1-2810-48ea-8348-9046029462cd', l='ServerLevel[manhunt]', x=-321.45, y=81.00, z=-142.03, cpos=[-21, -9], tl=4327, v=false]
+[19:59:44] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/671, uuid='53cfc582-e884-4d38-9cfa-3e0578168d58', l='ServerLevel[manhunt]', x=-320.78, y=11.63, z=-165.55, cpos=[-21, -11], tl=748, v=false]
+[19:59:55] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
