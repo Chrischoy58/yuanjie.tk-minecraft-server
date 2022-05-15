@@ -196,3 +196,43 @@ java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore
 [19:59:43] [Server thread/WARN]: UUID of added entity already exists: EntityPig['Pig'/600, uuid='2fdc6eb1-2810-48ea-8348-9046029462cd', l='ServerLevel[manhunt]', x=-321.45, y=81.00, z=-142.03, cpos=[-21, -9], tl=4327, v=false]
 [19:59:44] [Server thread/WARN]: UUID of added entity already exists: EntityBat['Bat'/671, uuid='53cfc582-e884-4d38-9cfa-3e0578168d58', l='ServerLevel[manhunt]', x=-320.78, y=11.63, z=-165.55, cpos=[-21, -11], tl=748, v=false]
 [19:59:55] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode creative
+[20:00:45] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode survival
+[20:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5069ms or 101 ticks behind
+[20:03:25] [User Authenticator #2/INFO]: UUID of player AnVius0623 is 2976f123-be02-3a4c-9d79-e9deff20a447
+[20:03:29] [Server thread/INFO]: AnVius0623 joined the game
+[20:03:29] [Server thread/INFO]: AnVius0623[/192.168.0.1:1795] logged in with entity id 1953 at ([world]-326.78149495811755, 70.0, -196.10926383317593)
+[20:03:56] [Server thread/INFO]: AnVius0623 issued server command: /gamemode creative
+[20:04:00] [Server thread/WARN]: AnVius0623 moved too quickly! -0.5098892773419266,30.059003783381982,-13.760440604341142
+[20:04:04] [Server thread/WARN]: AnVius0623 moved too quickly! 8.159802998536122,-21.57175089298262,-35.612743471920055
+[20:04:13] [Server thread/INFO]: Winter_Ryan issued server command: /gamemode spectator
+[20:04:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38328ms or 766 ticks behind
+[20:05:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19946ms or 398 ticks behind
+[20:06:06] [User Authenticator #3/INFO]: UUID of player Winter_Ryan is e0a51fbd-a3c6-3305-9f77-7e9ba58de1a0
+[20:06:06] [Server thread/INFO]: Winter_Ryan lost connection: Disconnected
+[20:06:08] [Server thread/INFO]: Winter_Ryan left the game
+[20:06:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-252 (MC: 1.18.2) ---
+[20:06:08] [Paper Watchdog Thread/ERROR]: The server has not responded for 19 seconds! Creating thread dump
+[20:06:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:06:08] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:06:09] [Server thread/INFO]: Winter_Ryan joined the game
+[20:06:09] [Server thread/INFO]: Winter_Ryan[/60.53.34.146:6368] logged in with entity id 2303 at ([world]-424.87190199541897, 63.410757417773645, -352.974152557503)
+[20:06:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:06:09] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[20:06:09] [Paper Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: RUNNABLE
+[20:06:09] [Paper Watchdog Thread/ERROR]: 	Stack:
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.getChunkRangeFuture(ChunkMap.java:782)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.prepareTickingChunk(ChunkMap.java:1410)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkHolder.updateFutures(ChunkHolder.java:650)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.DistanceManager.runAllUpdates(DistanceManager.java:246)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.runDistanceManagerUpdates(ServerChunkCache.java:835)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.saveIncrementally(ServerChunkCache.java:869)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1218)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1492)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1225)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4113/0x00000008014b0690.run(Unknown Source)
+[20:06:11] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[20:06:11] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:06:11] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:06:11] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:06:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11140ms or 222 ticks behind

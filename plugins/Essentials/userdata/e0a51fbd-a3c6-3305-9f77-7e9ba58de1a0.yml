@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1652442356811
-  login: 1652529556551
+  logout: 1652529966945
+  login: 1652529969396
 money: '0'
 last-account-name: Winter_Ryan
 lastlocation:
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: fd192b17-1cd2-4bb6-8d94-cf584cc3f2ec
   world-name: world
-  x: -471.6560384103607
-  y: 63.7531999805212
-  z: -508.39478458290336
-  yaw: -6.599761962890625
-  pitch: 36.000118255615234
+  x: -424.87190199541897
+  y: 63.66927071478862
+  z: -352.974152557503
+  yaw: 106.34756469726562
+  pitch: 18.44980812072754
 mail:
 - legacy: false
   read: true
